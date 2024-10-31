@@ -34,9 +34,9 @@
 
 [IDE – e² studio](https://www.renesas.com/en/software-tool/e-studio)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL780.png)
+![](img/slide_extend_RL780.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL781.png)
+![](img/slide_extend_RL781.png)
 
 ---
 
@@ -45,9 +45,9 @@
 
 [CS+ User’s Manual](https://www.renesas.com/en/software-tool/cs)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL782.png)
+![](img/slide_extend_RL782.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL783.png)
+![](img/slide_extend_RL783.png)
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
 [back to top](#article_top)
@@ -59,9 +59,9 @@
 
 [e² studio User’s Manual](https://www.renesas.com/en/software-tool/e-studio)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL784.png)
+![](img/slide_extend_RL784.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL785.png)
+![](img/slide_extend_RL785.png)
 
 ---
 
@@ -75,13 +75,13 @@
 
 [Compiler Licenses](https://www.renesas.com/en/software-tool/compiler-licenses)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL787.png)
+![](img/slide_extend_RL787.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL786.png)
+![](img/slide_extend_RL786.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL788.png)
+![](img/slide_extend_RL788.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL789.png)
+![](img/slide_extend_RL789.png)
 
 ---
 
@@ -90,9 +90,9 @@
 
 [Compiler CC-RL User’s Manual](https://www.renesas.com/en/software-tool/c-compiler-package-rl78-family)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7810.png)
+![](img/slide_extend_RL7810.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7811.png)
+![](img/slide_extend_RL7811.png)
 
 ---
 
@@ -102,7 +102,7 @@
 
 ***Base on selected IDE , install the related Smart Configurator**
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7812.png)
+![](img/slide_extend_RL7812.png)
 
 ---
 
@@ -111,17 +111,17 @@
 
 [Renesas Flash Programmer (Programming GUI)](https://www.renesas.com/en/software-tool/renesas-flash-programmer-programming-gui)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7813.png)
+![](img/slide_extend_RL7813.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7814.png)
+![](img/slide_extend_RL7814.png)
 
 ---
 
 # Create project by CS+ (RL78)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7816.png)
+![](img/slide_extend_RL7816.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7815.png)
+![](img/slide_extend_RL7815.png)
 
 
 <u>Integrated Development Environment User's Manual: Project Operation</u>
@@ -131,19 +131,19 @@
 
 # CS+ (RL78) : main window
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7817.png)
+![](img/slide_extend_RL7817.png)
 
 ---
 
 # CS+ (RL78) : open smart configurator
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7818.png)
+![](img/slide_extend_RL7818.png)
 
 <span style="color:#FF0000">
 Open smart configurator from IDE (CS+)<br><br> 
 </span>
     
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7819.png)
+![](img/slide_extend_RL7819.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 <u>Smart Configurator User's Manual: RL78 API Reference</u>
@@ -153,9 +153,9 @@ Open smart configurator from IDE (CS+)<br><br>
 
 # CS+ (RL78) : CC-RL options
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7820.png)
+![](img/slide_extend_RL7820.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7821.png)
+![](img/slide_extend_RL7821.png)
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
 [back to top](#article_top)
@@ -168,10 +168,10 @@ Open smart configurator from IDE (CS+)<br><br>
 Select Debug Tool<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7822.png)
+![](img/slide_extend_RL7822.png)
 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7823.png)
+![](img/slide_extend_RL7823.png)
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
 [back to top](#article_top)
@@ -180,7 +180,7 @@ Select Debug Tool<br><br>
 
 # Smart Config. : main window (RL78)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7824.png)
+![](img/slide_extend_RL7824.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top) 
@@ -191,7 +191,7 @@ Select Debug Tool<br><br>
 
 # Smart Config. : Clock
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7825.png)
+![](img/slide_extend_RL7825.png)
 
 
 <span style="color:#FF0000">
@@ -202,26 +202,26 @@ Select high speed on chip osc:40MHz<br><br>
 If want to enable PLL , select on chip osc: 20MHz<br><br>
 </span>  
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7826.png)
+![](img/slide_extend_RL7826.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7827.png)
+![](img/slide_extend_RL7827.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7828.png)
+![](img/slide_extend_RL7828.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7829.png)
+![](img/slide_extend_RL7829.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7830.png)
+![](img/slide_extend_RL7830.png)
 
 <span style="color:#FF0000">
 Enable X1 osc , will use X1 , X2 pin<br><br>
 </span>  
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7831.png)
+![](img/slide_extend_RL7831.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -230,9 +230,9 @@ Enable X1 osc , will use X1 , X2 pin<br><br>
 
 # Smart Config. : add component
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7832.png)
+![](img/slide_extend_RL7832.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7833.png)
+![](img/slide_extend_RL7833.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -243,11 +243,11 @@ Enable X1 osc , will use X1 , X2 pin<br><br>
 
 # Smart Config. : Interval Timer
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7835.png)
+![](img/slide_extend_RL7835.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7834.png)
+![](img/slide_extend_RL7834.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7836.png)
+![](img/slide_extend_RL7836.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -258,14 +258,14 @@ Enable X1 osc , will use X1 , X2 pin<br><br>
 TAUxx timer difference<br><br>
 </span>  
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7837.png)
+![](img/slide_extend_RL7837.png)
 
 
 <span style="color:#FF0000">
 TAUxx timer clock source<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7838.png)
+![](img/slide_extend_RL7838.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -273,9 +273,9 @@ TAUxx timer clock source<br><br>
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7839.png)
+![](img/slide_extend_RL7839.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7840.png)
+![](img/slide_extend_RL7840.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -286,11 +286,11 @@ TAUxx timer clock source<br><br>
 Press <b>[Generate Code]</b> in Smart config. will automatically generate driver source code under CS+ project<br><br>
 </span> 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7841.png)
+![](img/slide_extend_RL7841.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7842.png)
+![](img/slide_extend_RL7842.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7843.png)
+![](img/slide_extend_RL7843.png)
 
  
 
@@ -303,9 +303,9 @@ Press <b>[Generate Code]</b> in Smart config. will automatically generate driver
 Re-build project , will see the build result is complete without error<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7845.png)
+![](img/slide_extend_RL7845.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7844.png)
+![](img/slide_extend_RL7844.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -313,15 +313,15 @@ Re-build project , will see the build result is complete without error<br><br>
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7846.png)
+![](img/slide_extend_RL7846.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7847.png)
+![](img/slide_extend_RL7847.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7848.png)
+![](img/slide_extend_RL7848.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7849.png)
+![](img/slide_extend_RL7849.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7850.png)
+![](img/slide_extend_RL7850.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -349,7 +349,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_TAU0_0_Start(); 
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7851.png)
+![](img/slide_extend_RL7851.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -367,20 +367,20 @@ Need to manual add include file , to fix warning<br><br>
 #include "platform.h"
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7852.png)
+![](img/slide_extend_RL7852.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7853.png)
+![](img/slide_extend_RL7853.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7856.png)
+![](img/slide_extend_RL7856.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7854.png)
+![](img/slide_extend_RL7854.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7855.png)
+![](img/slide_extend_RL7855.png)
 
 
 <span style="color:#FF0000">
@@ -391,9 +391,9 @@ Add TIMER interrupt function under <br><br>
 r_Config_TAU0_0_interrupt()
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7857.png)
+![](img/slide_extend_RL7857.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7858.png)
+![](img/slide_extend_RL7858.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -403,9 +403,9 @@ r_Config_TAU0_0_interrupt()
 
 # Smart Config. : Timer delay
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7860.png)
+![](img/slide_extend_RL7860.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7859.png)
+![](img/slide_extend_RL7859.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -419,9 +419,9 @@ r_Config_TAU0_0_interrupt()
 [Generate Code] in Smart configurator , will re-generate driver code <b><u>every time</b></u><br><br>
 </span> 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7861.png)
+![](img/slide_extend_RL7861.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7862.png)
+![](img/slide_extend_RL7862.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -435,11 +435,11 @@ r_Config_TAU0_0_interrupt()
 Put custom application code , variable , declaration , between these 2 comment , will merge into driver code when execute [Generate Code] in Smart config<br><br>
 </span>  
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7863.png)
+![](img/slide_extend_RL7863.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7864.png)
+![](img/slide_extend_RL7864.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7865.png)
+![](img/slide_extend_RL7865.png)
 
 
 
@@ -454,9 +454,9 @@ Put custom application code , variable , declaration , between these 2 comment ,
 # Smart Config. : GPIO
 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7866.png)
+![](img/slide_extend_RL7866.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7867.png)
+![](img/slide_extend_RL7867.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -467,18 +467,18 @@ Put custom application code , variable , declaration , between these 2 comment ,
 Select target GPIO port , to set GPIO input , output<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7868.png)
+![](img/slide_extend_RL7868.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7869.png)
+![](img/slide_extend_RL7869.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7870.png)
+![](img/slide_extend_RL7870.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7871.png)
+![](img/slide_extend_RL7871.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -487,11 +487,11 @@ Select target GPIO port , to set GPIO input , output<br><br>
 
 # Smart Config. : GPIO control example
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7873.png)
+![](img/slide_extend_RL7873.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7874.png)
+![](img/slide_extend_RL7874.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7872.png)
+![](img/slide_extend_RL7872.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -502,9 +502,9 @@ Select target GPIO port , to set GPIO input , output<br><br>
 
 [https://www\.renesas\.com/en/products/microcontrollers\-microprocessors/rl78\-low\-power\-8\-16\-bit\-mcus/rl78f24\-next\-generation\-actuator\-and\-sensor\-microcontroller](https://www.renesas.com/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78f24-next-generation-actuator-and-sensor-microcontroller)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7876.png)
+![](img/slide_extend_RL7876.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7875.png)
+![](img/slide_extend_RL7875.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -516,31 +516,31 @@ Select target GPIO port , to set GPIO input , output<br><br>
 # Smart Config. : external int.
 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7877.png)
+![](img/slide_extend_RL7877.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7878.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7879.png)
+![](img/slide_extend_RL7878.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7880.png)
+![](img/slide_extend_RL7879.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7881.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
+
+---
+
+![](img/slide_extend_RL7880.png)
+
+![](img/slide_extend_RL7881.png)
 
 <span style="color:#FF0000">
 Add code when trigger external interrupt INTP2<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7882.png)
+![](img/slide_extend_RL7882.png)
 
 
 <span style="color:#FF0000">
@@ -551,7 +551,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_INTC_INTP2_Start();
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7883.png)
+![](img/slide_extend_RL7883.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -564,36 +564,36 @@ R_Config_INTC_INTP2_Start();
 # Smart Config. : I2C
 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7884.png)
+![](img/slide_extend_RL7884.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7886.png)
+![](img/slide_extend_RL7886.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7885.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7887.png)
+![](img/slide_extend_RL7885.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7888.png)
+![](img/slide_extend_RL7887.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7889.png)
+![](img/slide_extend_RL7888.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7890.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7891.png)
+---
+
+![](img/slide_extend_RL7889.png)
+
+![](img/slide_extend_RL7890.png)
+
+![](img/slide_extend_RL7891.png)
 
 <span style="color:#FF0000">
 Read function example :<br><br>
@@ -621,27 +621,27 @@ R_Config_IIC00_Master_Send(…,data,...)
 
 # Smart Config. : I2C(IICA0)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7893.png)
+![](img/slide_extend_RL7893.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7892.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7894.png)
+![](img/slide_extend_RL7892.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7895.png)
+![](img/slide_extend_RL7894.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7896.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7897.png)
+---
+
+![](img/slide_extend_RL7895.png)
+
+![](img/slide_extend_RL7896.png)
+
+![](img/slide_extend_RL7897.png)
 
 <span style="color:#FF0000">
 Read function example :<br><br>
@@ -668,9 +668,9 @@ R_Config_IICA0_Master_Send(…,data,...)
 
 # Smart Config. : SPI (CSI)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7899.png)
+![](img/slide_extend_RL7899.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7898.png)
+![](img/slide_extend_RL7898.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -681,7 +681,7 @@ R_Config_IICA0_Master_Send(…,data,...)
 To fix conflict , select other SAU port , each SAU channel only support one function at the same time<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78100.png)
+![](img/slide_extend_RL78100.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -691,14 +691,14 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 
 # Smart Config. : CSI table for SPI/UART/I2C
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78101.png)
+![](img/slide_extend_RL78101.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78102.png)
+![](img/slide_extend_RL78102.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -715,9 +715,9 @@ To fix conflict , select other SAU port , each SAU channel only support one func
   * 1 : 2^ND^ EDGE
 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78103.png)
+![](img/slide_extend_RL78103.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78104.png)
+![](img/slide_extend_RL78104.png)
 
 
 | CPOL | CPHA | mode | Type |
@@ -735,11 +735,11 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 
 # Smart Config. : SPI (CSI)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78105.png)
+![](img/slide_extend_RL78105.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78106.png)
+![](img/slide_extend_RL78106.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78107.png)
+![](img/slide_extend_RL78107.png)
 
 
 <span style="color:#FF0000">
@@ -750,7 +750,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_CSI01_Start();
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78108.png)
+![](img/slide_extend_RL78108.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -761,27 +761,27 @@ R_Config_CSI01_Start();
 
 # Smart Config. : UART
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78109.png)
+![](img/slide_extend_RL78109.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78110.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78111.png)
+![](img/slide_extend_RL78110.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78112.png)
+![](img/slide_extend_RL78111.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78113.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78114.png)
+---
+
+![](img/slide_extend_RL78112.png)
+
+![](img/slide_extend_RL78113.png)
+
+![](img/slide_extend_RL78114.png)
 
 
 <span style="color:#FF0000">
@@ -792,7 +792,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_UART1_Start();
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78115.png)
+![](img/slide_extend_RL78115.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -809,7 +809,7 @@ Add printf function
 3. redirect putchar function
 </span> 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78116.png)
+![](img/slide_extend_RL78116.png)
 
 
 <span style="color:#000000">
@@ -839,30 +839,30 @@ The pulse cycle <u>(frequency)</u> is set in the master channel.<br>
 The pulse width <u>(duration)</u> is set in the slave channel.<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78118.png)
+![](img/slide_extend_RL78118.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78117.png)
+![](img/slide_extend_RL78117.png)
 
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78119.png)
-
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78120.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78121.png)
+![](img/slide_extend_RL78119.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78122.png)
+![](img/slide_extend_RL78120.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78123.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
+
+---
+
+![](img/slide_extend_RL78121.png)
+
+![](img/slide_extend_RL78122.png)
+
+![](img/slide_extend_RL78123.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -871,17 +871,17 @@ The pulse width <u>(duration)</u> is set in the slave channel.<br><br>
 
 # Smart Config. : PWM formula
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78124.png)
+![](img/slide_extend_RL78124.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78125.png)
+![](img/slide_extend_RL78125.png)
 
 MCU clock src : 40M , 
 clock div : 40M / 2^6 = 625K Hz , 
 target freq : 100Hz = 10000 us
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78126.png)
+![](img/slide_extend_RL78126.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78127.png)
+![](img/slide_extend_RL78127.png)
 
 period : 1/100 (which is 10000us) = (val_m + 1 ) * (1/ 625K)
 
@@ -898,9 +898,9 @@ duty(%) = val_s / (val_m + 1) *100 , 75/100 = val_s/(val_m + 1)
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78128.png)
+![](img/slide_extend_RL78128.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78129.png)
+![](img/slide_extend_RL78129.png)
 
 <span style="color:#FF0000">
 Need to manual add driver start API , ex : <br><br>
@@ -910,7 +910,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_TAU0_2_Start();
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78130.png)
+![](img/slide_extend_RL78130.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -921,16 +921,16 @@ R_Config_TAU0_2_Start();
 
 # Smart Config. : ADC
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78132.png)
+![](img/slide_extend_RL78132.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78131.png)
+![](img/slide_extend_RL78131.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78133.png)
+![](img/slide_extend_RL78133.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -939,7 +939,7 @@ R_Config_TAU0_2_Start();
 
 # Smart Config. : ADC sampling
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78134.png)
+![](img/slide_extend_RL78134.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -948,13 +948,13 @@ R_Config_TAU0_2_Start();
 
 # Smart Config. : ADC driver
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78137.png)
+![](img/slide_extend_RL78137.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78135.png)
+![](img/slide_extend_RL78135.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78136.png)
+![](img/slide_extend_RL78136.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78138.png)
+![](img/slide_extend_RL78138.png)
 
 example : 
 
@@ -987,7 +987,7 @@ void GetADC(unsigned char ch)
 
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78139.png)
+![](img/slide_extend_RL78139.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -996,7 +996,7 @@ void GetADC(unsigned char ch)
 
 # CS+ : Add root path in Path Edit
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78140.png)
+![](img/slide_extend_RL78140.png)
 
 
 <span style="color:#FF0000">
@@ -1008,7 +1008,7 @@ add root path under project to fix compile error issue<br><br>
 .
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78141.png)
+![](img/slide_extend_RL78141.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1035,7 +1035,7 @@ while(1)
 }
 ```
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78142.png)
+![](img/slide_extend_RL78142.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1046,7 +1046,7 @@ while(1)
 If not add while loop under main code , program will <b>stop</b> at exit in csstart.asm<br><br>
 </span> 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78143.png)
+![](img/slide_extend_RL78143.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1059,18 +1059,18 @@ If not add while loop under main code , program will <b>stop</b> at exit in csst
 Make sure <u><b>[DISCONNECT]</b></u> CS+ project before REMOVE DEBUGGER tool <br><br>
 </span>  
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78144.png)
+![](img/slide_extend_RL78144.png)
 
 download program after rebuild
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78147.png)
+![](img/slide_extend_RL78147.png)
 
 debug function
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78145.png)
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78146.png)
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78149.png)
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78150.png)
+![](img/slide_extend_RL78145.png)
+![](img/slide_extend_RL78146.png)
+![](img/slide_extend_RL78149.png)
+![](img/slide_extend_RL78150.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78148.png)
+![](img/slide_extend_RL78148.png)
 
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
@@ -1080,13 +1080,13 @@ debug function
 
 # Renesas Flash Programmer
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78151.png)
+![](img/slide_extend_RL78151.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78153.png)
+![](img/slide_extend_RL78153.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78152.png)
+![](img/slide_extend_RL78152.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78154.png)
+![](img/slide_extend_RL78154.png)
 
 <u>Renesas Flash Programmer V*.** Flash memory programming softwareUser's Manual </u>
 [back to top](#article_top)    
@@ -1098,25 +1098,25 @@ debug function
 # Tips : Convert to Hex
 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78155.png)
+![](img/slide_extend_RL78155.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78156.png)
+![](img/slide_extend_RL78156.png)
    
 
 ---
 
 # Tips : Emulator power on MCU
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78157.png)
+![](img/slide_extend_RL78157.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78158.png)
+![](img/slide_extend_RL78158.png)
    
 
 ---
 
 # Tips : map file display
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78159.png)
+![](img/slide_extend_RL78159.png)
 
 <span style="color:#FF0000">
 Function address<br>
@@ -1127,47 +1127,47 @@ RAM size display<br><br>
 </span>
 
 variable place address (SRAM)
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78160.png)
+![](img/slide_extend_RL78160.png)
 
 function place address (FLASH)
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78161.png)
+![](img/slide_extend_RL78161.png)
 
 section size display in map file
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78162.png)
+![](img/slide_extend_RL78162.png)
    
 
 ---
 
 # Tips : section message display
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78163.png)
+![](img/slide_extend_RL78163.png)
 
 
 Display section message
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78164.png)
+![](img/slide_extend_RL78164.png)
    
 
 ---
 
 # Tips : section size display in output window
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78165.png)
+![](img/slide_extend_RL78165.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78166.png)
+![](img/slide_extend_RL78166.png)
    
 
 ---
 
 # Tips : Backup times (generate code)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78167.png)
+![](img/slide_extend_RL78167.png)
    
 
 ---
 
 # Tips : section define modify
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78168_1.png)
+![](img/slide_extend_RL78168_1.png)
    
 
 ---
@@ -1181,7 +1181,7 @@ ADD [<b>privateData.const</b>] in Section Settings<br>
 3. Key in [<b>privateData.const</b>] <br><br>
 </span>  
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78168.png)
+![](img/slide_extend_RL78168.png)
 
 | item | note |
 |:--:|:--:|
@@ -1190,10 +1190,10 @@ ADD [<b>privateData.const</b>] in Section Settings<br>
 | text  | program code  |
 |<span style="color:#FF0000"><b>const</b></span>   | <span style="color:#FF0000"><b>constant data</b></span>  |
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78169.png)
+![](img/slide_extend_RL78169.png)
 
 Code assignment example
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78170.png)
+![](img/slide_extend_RL78170.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1209,7 +1209,7 @@ ADD [<b>privateData.data</b>] in Section Settings<br>
 3. Key in [<b>privateData.data</b>] <br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78171.png)
+![](img/slide_extend_RL78171.png)
 
 | item | note |
 |:--:|:--:|
@@ -1218,10 +1218,10 @@ ADD [<b>privateData.data</b>] in Section Settings<br>
 | text  | program code  |
 |const   | constant data  |
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78173.png)
+![](img/slide_extend_RL78173.png)
 
 Code assignment example
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78172.png)
+![](img/slide_extend_RL78172.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1238,7 +1238,7 @@ ADD [<b>privateData.bss</b>] in Section Settings<br>
 </span>
 
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78174.png)
+![](img/slide_extend_RL78174.png)
 
 
 | item | note |
@@ -1248,10 +1248,10 @@ ADD [<b>privateData.bss</b>] in Section Settings<br>
 | text  | program code  |
 |const   | constant data  |
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78176.png)
+![](img/slide_extend_RL78176.png)
 
 Code assignment example
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78175.png)
+![](img/slide_extend_RL78175.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)   
@@ -1265,13 +1265,13 @@ New add custom define section as below <br>
 Also able to define the address base on application<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78177.png)
+![](img/slide_extend_RL78177.png)
 
 Code assignment example
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78178.png)
+![](img/slide_extend_RL78178.png)
 
 check the address in map file
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78179.png)
+![](img/slide_extend_RL78179.png)
 
 
 <u>CC-RL Compiler User's Manual</u>
@@ -1287,13 +1287,13 @@ New add custom define section as the capture<br>
 Also able to define the address base on application<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78180.png)
+![](img/slide_extend_RL78180.png)
 
 Code assignment example
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78181.png)
+![](img/slide_extend_RL78181.png)
 
 check the address in map file
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78182.png)
+![](img/slide_extend_RL78182.png)
 
 
 <u>CC-RL Compiler User's Manual</u>
@@ -1303,7 +1303,7 @@ check the address in map file
 
 # Tips : section allocation , size
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78183.png)
+![](img/slide_extend_RL78183.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1317,17 +1317,17 @@ check the address in map file
 Use [<b> Build Mode Setting </b>] , to split different macro in different project setting if necessary<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78184.png)
+![](img/slide_extend_RL78184.png)
 
 Project split example , modify the projec name
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78185.png)
+![](img/slide_extend_RL78185.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78186.png)
+![](img/slide_extend_RL78186.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78187.png)
+![](img/slide_extend_RL78187.png)
 
 Add the macro define for extra project 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78188.png)
+![](img/slide_extend_RL78188.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1341,12 +1341,12 @@ Add the macro define for extra project
 Writing to the on-chip debug reserved area is prohibited.(address: 0x00000002)(E1203124)<br><br>
 </span>
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78189.png)
+![](img/slide_extend_RL78189.png)
 
 how to fix
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78190.png)
+![](img/slide_extend_RL78190.png)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78191.png)
+![](img/slide_extend_RL78191.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
