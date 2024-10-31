@@ -45,9 +45,9 @@
 
 [CS+ User’s Manual](https://www.renesas.com/en/software-tool/cs)
 
-![](img%5Cslide_extend_RL782.png)
+![](https://github.com/released/slide_RL78/tree/gh-pages/img/slide_extend_RL782.png)
 
-![](img%5Cslide_extend_RL783.png)
+![](https://github.com/released/slide_RL78/tree/gh-pages/img/slide_extend_RL783.png)
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
 [back to top](#article_top)
