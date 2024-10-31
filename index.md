@@ -1088,7 +1088,7 @@ debug function
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78154.png)
 
-<u>Renesas Flash Programmer V\*\.\*\* Flash memory programming softwareUser's Manual </u>
+<u>Renesas Flash Programmer V*.** Flash memory programming softwareUser's Manual </u>
 [back to top](#article_top)    
 
 ---
