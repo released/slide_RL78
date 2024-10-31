@@ -34,9 +34,9 @@
 
 [IDE – e² studio](https://www.renesas.com/en/software-tool/e-studio)
 
-![](img%5Cslide_extend_RL780.png)
+![](img\slide_extend_RL780.png)
 
-![](img%5Cslide_extend_RL781.png)
+![](img\slide_extend_RL781.png)
 
 ---
 
