@@ -75,9 +75,9 @@
 
 [Compiler Licenses](https://www.renesas.com/en/software-tool/compiler-licenses)
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL786.png)
-
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL787.png)
+
+![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL786.png)
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL788.png)
 
@@ -1142,6 +1142,8 @@ section size display in map file
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78163.png)
 
+
+Display section message
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78164.png)
    
 
