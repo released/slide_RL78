@@ -283,7 +283,7 @@ TAUxx timer clock source<br><br>
 ---
 
 <span style="color:#FF0000">
-Press [Generate Code] in Smart config. will automatically generate driver source code under CS+ project<br><br>
+Press <b>[Generate Code]</b> in Smart config. will automatically generate driver source code under CS+ project<br><br>
 </span> 
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7841.png)
@@ -299,11 +299,11 @@ Press [Generate Code] in Smart config. will automatically generate driver source
 
 ---
 
-![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7845.png)
-
 <span style="color:#FF0000">
 Re-build project , will see the build result is complete without error<br><br>
 </span>
+
+![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7845.png)
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7844.png)
 
@@ -401,7 +401,7 @@ r_Config_TAU0_0_interrupt()
 
 ---
 
-# Smart Config. : Time delay
+# Smart Config. : Timer delay
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL7860.png)
 
@@ -834,9 +834,9 @@ STIF<span style="color:#FF0000"><b>0</b></span>  = 0U\;  \/\* clear INTST0 inter
 # Smart Config. : PWM
 
 <span style="color:#FF0000">
-The PWM (pulse width modulation) output function is timer that generate multiple PWM outputs by using a <u>master and multiple slave channels.</u><br>
-The pulse <u>cycle (frequency)</u> is set in the master channel.<br>
-The pulse <u>width (duration)</u> is set in the slave channel.<br><br>
+The PWM (pulse width modulation) output function is timer that generate multiple PWM outputs by using <u>a master and multiple slave channels.</u><br>
+The pulse cycle <u>(frequency)</u> is set in the master channel.<br>
+The pulse width <u>(duration)</u> is set in the slave channel.<br><br>
 </span>
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78118.png)
@@ -1268,6 +1268,7 @@ Also able to define the address base on application<br><br>
 Code assignment example
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78178.png)
 
+check the address in map file
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78179.png)
 
 
@@ -1289,6 +1290,7 @@ Also able to define the address base on application<br><br>
 Code assignment example
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78181.png)
 
+check the address in map file
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78182.png)
 
 
@@ -1315,13 +1317,14 @@ Use [<b> Build Mode Setting </b>] , to split different macro in different projec
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78184.png)
 
-Project split example
+Project split example , modify the projec name
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78185.png)
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78186.png)
 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78187.png)
 
+Add the macro define for extra project 
 ![](https://github.com/released/slide_RL78/raw/gh-pages/img/slide_extend_RL78188.png)
 
 <u>CC-RL Compiler User's Manual</u>
