@@ -70,7 +70,7 @@
 
 [Compiler – C Compiler Package for RL78 Family [CC-RL] ](https://www.renesas.com/en/software-tool/c-compiler-package-rl78-family)
 
-***Base on selected IDE , install the related compiler ( RL78 Compiler CC-RH for CS+ or for e² studio)**
+***Base on selected IDE , install the related compiler ( RL78 Compiler CC-RL for CS+ or for e² studio)**
 
 
 [Compiler Licenses](https://www.renesas.com/en/software-tool/compiler-licenses)
