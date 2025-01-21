@@ -896,10 +896,49 @@ uart1 rx
 ```c
 int UART1_Get(void)
 {  
+    unsigned char c = 0;  
     while (SRIF1 == 0);
     SRIF1 = 0;
     c = SDR11L;
     return c;
+}
+```
+
+```c
+// 115200 : 1 bytes (10bit) = 0.08ms
+// set timer interval delay , clock src 2500KHz , fCLK/2^4 , 1ms
+int boot_UART1_Get_withTimeOut(unsigned long timeout, unsigned char *data)
+{
+    unsigned long tick_count;
+
+    tick_count = timeout;
+    R_Config_TAU0_0_Start();
+
+    /* wait for a byte to arrive */
+    while ((SRIF1 == 0) && (tick_count))
+    {
+      if (TMIF00 == 1)
+      {
+        TMIF00 = 0;
+        R_Config_TAU0_0_Stop();
+        if (--tick_count)
+        {
+          R_Config_TAU0_0_Start();
+        }
+      }
+    }
+
+    if (tick_count == 0)
+    {
+      *data = '0';
+      return FALSE;
+    }
+
+    *data=(uint8_t) SDR11L;
+    SRIF1 = 0;
+
+
+    return TRUE;
 }
 ```
 

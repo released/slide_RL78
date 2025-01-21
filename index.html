@@ -571,10 +571,46 @@ STIF<span style="color:#FF0000"><b>0</b></span>  = 0U;  /* clear INTST0 interrup
 </code></pre><p>uart1 rx</p>
 <pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-int">int</span> <span class="token function">UART1_Get</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span><span class="token punctuation">)</span>
 <span class="token punctuation">{</span>  
+    <span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-char">char</span> c <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>  
     <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span>SRIF1 <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     SRIF1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
     c <span class="token operator">=</span> SDR11L<span class="token punctuation">;</span>
     <span class="token keyword keyword-return">return</span> c<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token comment">// 115200 : 1 bytes (10bit) = 0.08ms</span>
+<span class="token comment">// set timer interval delay , clock src 2500KHz , fCLK/2^4 , 1ms</span>
+<span class="token keyword keyword-int">int</span> <span class="token function">boot_UART1_Get_withTimeOut</span><span class="token punctuation">(</span><span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-long">long</span> timeout<span class="token punctuation">,</span> <span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-char">char</span> <span class="token operator">*</span>data<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-long">long</span> tick_count<span class="token punctuation">;</span>
+
+    tick_count <span class="token operator">=</span> timeout<span class="token punctuation">;</span>
+    <span class="token function">R_Config_TAU0_0_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/* wait for a byte to arrive */</span>
+    <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>SRIF1 <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">(</span>tick_count<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+      <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>TMIF00 <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+      <span class="token punctuation">{</span>
+        TMIF00 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token function">R_Config_TAU0_0_Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token operator">--</span>tick_count<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+          <span class="token function">R_Config_TAU0_0_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>tick_count <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+      <span class="token operator">*</span>data <span class="token operator">=</span> <span class="token char">'0'</span><span class="token punctuation">;</span>
+      <span class="token keyword keyword-return">return</span> FALSE<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token operator">*</span>data<span class="token operator">=</span><span class="token punctuation">(</span><span class="token class-name">uint8_t</span><span class="token punctuation">)</span> SDR11L<span class="token punctuation">;</span>
+    SRIF1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+
+    <span class="token keyword keyword-return">return</span> TRUE<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre><p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
