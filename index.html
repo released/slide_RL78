@@ -219,16 +219,16 @@ Re-build project , will see the build result is complete without error<br><br>
 <span style="color:#FF0000">
 Need to manual add interrupt enable and while(1)<br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>BSP_EI();
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">BSP_EI</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-while(1)
-{
-}
+<span class="token keyword keyword-while">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
 
 </code></pre><span style="color:#FF0000">
 Need to manual add driver start API , ex : <br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_TAU0_0_Start(); 
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_TAU0_0_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
 </code></pre><p><img src="img/slide_extend_RL7851.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
@@ -236,8 +236,8 @@ Need to manual add driver start API , ex : <br><br>
 <span style="color:#FF0000">
 Need to manual add include file , to fix warning<br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>#include "r_smc_entry.h"
-#include "platform.h"
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"r_smc_entry.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"platform.h"</span></span>
 </code></pre><p><img src="img/slide_extend_RL7852.png" alt=""></p>
 <p><img src="img/slide_extend_RL7853.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
@@ -249,15 +249,31 @@ Need to manual add include file , to fix warning<br><br>
 <span style="color:#FF0000">
 Add TIMER interrupt function under <br><br>
 </span>  
-<pre data-role="codeBlock" data-info="" class="language-text"><code>r_Config_TAU0_0_interrupt()
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">r_Config_TAU0_0_interrupt</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </code></pre><p><img src="img/slide_extend_RL7857.png" alt=""></p>
 <p><img src="img/slide_extend_RL7858.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
-<h1 id="smart-config--timer-delay">Smart Config. : Timer delay </h1>
+<h1 id="smart-config--timer-delay---interrupt">Smart Config. : Timer delay - interrupt </h1>
 <p><img src="img/slide_extend_RL7860.png" alt=""></p>
 <p><img src="img/slide_extend_RL7859.png" alt=""></p>
+<p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
+<a href="#article_top">back to top</a></p>
+<hr>
+<h1 id="smart-config--timer-delay---polling-f2440mhz">Smart Config. : Timer delay - polling (F24@40MHz) </h1>
+<p>nop delay</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code>    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">2000</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> 
+    <span class="token punctuation">{</span>
+        <span class="token function">__nop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre><p>timer delay</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code>    <span class="token function">R_Config_TAU0_0_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-while">while</span><span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">(</span>TCR00 <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">R_Config_TAU0_0_Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p><img src="img/slide_extend_RL7859_1.png" alt=""></p>
+<p><img src="img/slide_extend_RL7859_3.png" alt=""></p>
+<p><img src="img/slide_extend_RL7859_2.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
@@ -301,7 +317,9 @@ Select target GPIO port , to set GPIO input , output<br><br>
 <a href="#article_top">back to top</a></p>
 <hr>
 <h1 id="smart-config--gpio-control-example">Smart Config. : GPIO control example </h1>
-<p><img src="img/slide_extend_RL7873.png" alt=""></p>
+<p>example</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code>P7_bit<span class="token punctuation">.</span>no3 <span class="token operator">=</span> <span class="token operator">~</span>P7_bit<span class="token punctuation">.</span>no3<span class="token punctuation">;</span>
+</code></pre><p><img src="img/slide_extend_RL7873.png" alt=""></p>
 <p><img src="img/slide_extend_RL7874.png" alt=""></p>
 <p><img src="img/slide_extend_RL7872.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
@@ -334,7 +352,7 @@ Add code when trigger external interrupt INTP2<br><br>
 <span style="color:#FF0000">
 Need to manual add driver start API , ex : <br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_INTC_INTP2_Start();
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_INTC_INTP2_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><p><img src="img/slide_extend_RL7883.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
@@ -361,12 +379,12 @@ Need to manual add driver start API , ex : <br><br>
 <span style="color:#FF0000">
 Read function example :<br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_IIC00_Master_Send(…,reg,...)
-R_Config_IIC00_Master_Receive(…,data,...)
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_IIC00_Master_Send</span><span class="token punctuation">(</span>…<span class="token punctuation">,</span>reg<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
+<span class="token function">R_Config_IIC00_Master_Receive</span><span class="token punctuation">(</span>…<span class="token punctuation">,</span>data<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
 </code></pre><span style="color:#FF0000">
 Write function example :<br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_IIC00_Master_Send(…,data,...)
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_IIC00_Master_Send</span><span class="token punctuation">(</span>…<span class="token punctuation">,</span>data<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
 </code></pre><p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
@@ -386,12 +404,12 @@ Write function example :<br><br>
 <span style="color:#FF0000">
 Read function example :<br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_IICA0_Master_Send(…,reg,...)
-R_Config_IICA0_Master_Receive(…,data,...)
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_IICA0_Master_Send</span><span class="token punctuation">(</span>…<span class="token punctuation">,</span>reg<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
+<span class="token function">R_Config_IICA0_Master_Receive</span><span class="token punctuation">(</span>…<span class="token punctuation">,</span>data<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
 </code></pre><span style="color:#FF0000">
 Write function example :<br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_IICA0_Master_Send(…,data,...)
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_IICA0_Master_Send</span><span class="token punctuation">(</span>…<span class="token punctuation">,</span>data<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
 </code></pre><p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
@@ -481,7 +499,7 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 <span style="color:#FF0000">
 Need to manual add driver start API , ex : <br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_CSI01_Start();
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_CSI01_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><p><img src="img/slide_extend_RL78108.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
@@ -503,7 +521,7 @@ Need to manual add driver start API , ex : <br><br>
 <span style="color:#FF0000">
 Need to manual add driver start API , ex : <br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_UART1_Start();
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_UART1_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><p><img src="img/slide_extend_RL78115.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
@@ -528,6 +546,37 @@ while(STIF<span style="color:#FF0000"><b>0</b></span>  == 0)<br>
 STIF<span style="color:#FF0000"><b>0</b></span>  = 0U;  /* clear INTST0 interrupt flag */<br>
 </p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
+<a href="#article_top">back to top</a></p>
+<hr>
+<h1 id="smart-config--uart-tx--rx---polling-example">Smart Config. : UART tx , rx - polling example </h1>
+<p>uart1 tx</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-void">void</span> <span class="token function">UART1_SendByte</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> c<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    STMK1 <span class="token operator">=</span> <span class="token number">1U</span><span class="token punctuation">;</span>    <span class="token comment">/* disable interrupt */</span>
+    SDR10L <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-char">char</span><span class="token punctuation">)</span>c<span class="token punctuation">;</span>
+    <span class="token comment">// STIF1 = 0U;    /* clear interrupt flag */  </span>
+    <span class="token keyword keyword-while">while</span><span class="token punctuation">(</span>STIF1 <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+
+    <span class="token punctuation">}</span>
+    STIF1 <span class="token operator">=</span> <span class="token number">0U</span><span class="token punctuation">;</span>    <span class="token comment">/* clear interrupt flag */</span>  
+<span class="token punctuation">}</span>
+</code></pre><pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-void">void</span> <span class="token function">UART1_sendString</span><span class="token punctuation">(</span><span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-char">char</span><span class="token operator">*</span> str<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span><span class="token operator">*</span>str<span class="token punctuation">)</span> 
+    <span class="token punctuation">{</span>
+        <span class="token function">UART1_SendByte</span><span class="token punctuation">(</span><span class="token operator">*</span>str<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>uart1 rx</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-int">int</span> <span class="token function">UART1_Get</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>  
+    <span class="token keyword keyword-while">while</span> <span class="token punctuation">(</span>SRIF1 <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    SRIF1 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    c <span class="token operator">=</span> SDR11L<span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> c<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
 <p><a id="article_pwm" href=""></a></p>
@@ -575,7 +624,7 @@ target freq : 100Hz = 10000 us</p>
 <span style="color:#FF0000">
 Need to manual add driver start API , ex : <br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>R_Config_TAU0_2_Start();
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_TAU0_2_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><p><img src="img/slide_extend_RL78130.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
@@ -602,31 +651,31 @@ Need to manual add driver start API , ex : <br><br>
 <p><img src="img/slide_extend_RL78136.png" alt=""></p>
 <p><img src="img/slide_extend_RL78138.png" alt=""></p>
 <p>example :</p>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>static void __near r_Config_S12AD0_interrupt(void)
-{
-/* Start user code for r_Config_S12AD0_interrupt. Do not edit comment generated here */
-    ADC_Process_in_IRQ();
-/* End user code. Do not edit comment generated here */
-}
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> __near <span class="token function">r_Config_S12AD0_interrupt</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token comment">/* Start user code for r_Config_S12AD0_interrupt. Do not edit comment generated here */</span>
+    <span class="token function">ADC_Process_in_IRQ</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">/* End user code. Do not edit comment generated here */</span>
+<span class="token punctuation">}</span>
 
-void ADC_Process_in_IRQ(void)
-{
-    FLAG_PROJ_TRIG_ADC_CH = 1;
-}
+<span class="token keyword keyword-void">void</span> <span class="token function">ADC_Process_in_IRQ</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    FLAG_PROJ_TRIG_ADC_CH <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
 
-void GetADC(unsigned char ch)
-{
-    unsigned short tmp_buffer = 0;
+<span class="token keyword keyword-void">void</span> <span class="token function">GetADC</span><span class="token punctuation">(</span><span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-char">char</span> ch<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-short">short</span> tmp_buffer <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
 
-    FLAG_PROJ_TRIG_ADC_CH = 0;
-    R_Config_S12AD0_Start();
-    while(!FLAG_PROJ_TRIG_ADC_CH);
-    R_Config_S12AD0_Get_ValueResult((e_ad_channel_t) ch,&amp;tmp_buffer);
-    R_Config_S12AD0_Stop();
-    FLAG_PROJ_TRIG_ADC_CH = 0;
+    FLAG_PROJ_TRIG_ADC_CH <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token function">R_Config_S12AD0_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-while">while</span><span class="token punctuation">(</span><span class="token operator">!</span>FLAG_PROJ_TRIG_ADC_CH<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">R_Config_S12AD0_Get_ValueResult</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">e_ad_channel_t</span><span class="token punctuation">)</span> ch<span class="token punctuation">,</span><span class="token operator">&amp;</span>tmp_buffer<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">R_Config_S12AD0_Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    FLAG_PROJ_TRIG_ADC_CH <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
 
-    adc_buffer[ch] = tmp_buffer;    
-}
+    adc_buffer<span class="token punctuation">[</span>ch<span class="token punctuation">]</span> <span class="token operator">=</span> tmp_buffer<span class="token punctuation">;</span>    
+<span class="token punctuation">}</span>
 
 </code></pre><p><img src="img/slide_extend_RL78139.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
@@ -647,13 +696,13 @@ add root path under project to fix compile error issue<br><br>
 <span style="color:#FF0000">
 Need to manual add enable interrupt <br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>BSP_EI();
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">BSP_EI</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><span style="color:#FF0000">
 Need to manual add main loop , ex : <br><br>
 </span>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>while(1)
-{
-}
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-while">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+<span class="token punctuation">}</span>
 </code></pre><p><img src="img/slide_extend_RL78142.png" alt=""></p>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>

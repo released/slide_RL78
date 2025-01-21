@@ -334,7 +334,7 @@ Re-build project , will see the build result is complete without error<br><br>
 Need to manual add interrupt enable and while(1)<br><br>
 </span>
 
-```
+```c
 BSP_EI();
 
 while(1)
@@ -347,7 +347,7 @@ while(1)
 Need to manual add driver start API , ex : <br><br>
 </span>
 
-```
+```c
 R_Config_TAU0_0_Start(); 
 ```
 
@@ -364,7 +364,7 @@ R_Config_TAU0_0_Start();
 Need to manual add include file , to fix warning<br><br>
 </span>
 
-```
+```c
 #include "r_smc_entry.h"
 #include "platform.h"
 ```
@@ -389,7 +389,7 @@ Need to manual add include file , to fix warning<br><br>
 Add TIMER interrupt function under <br><br>
 </span>  
 
-```
+```c
 r_Config_TAU0_0_interrupt()
 ```
 
@@ -403,12 +403,40 @@ r_Config_TAU0_0_interrupt()
 
 ---
 
-# Smart Config. : Timer delay
+# Smart Config. : Timer delay - interrupt
 
 ![](img/slide_extend_RL7860.png)
 
 ![](img/slide_extend_RL7859.png)
 
+
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
+
+---
+
+# Smart Config. : Timer delay - polling (F24@40MHz)
+
+nop delay
+```c
+    for (i = 0; i < 2000; i++) 
+    {
+        __nop();
+    }
+```
+
+timer delay
+```c
+    R_Config_TAU0_0_Start();
+    while(!(TCR00 == 0));
+    R_Config_TAU0_0_Stop();
+```
+
+![](img/slide_extend_RL7859_1.png)
+
+![](img/slide_extend_RL7859_3.png)
+
+![](img/slide_extend_RL7859_2.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -489,6 +517,11 @@ Select target GPIO port , to set GPIO input , output<br><br>
 
 # Smart Config. : GPIO control example
 
+example
+```c
+P7_bit.no3 = ~P7_bit.no3;
+```
+
 ![](img/slide_extend_RL7873.png)
 
 ![](img/slide_extend_RL7874.png)
@@ -549,7 +582,7 @@ Add code when trigger external interrupt INTP2<br><br>
 Need to manual add driver start API , ex : <br><br>
 </span>
 
-```
+```c
 R_Config_INTC_INTP2_Start();
 ```
 
@@ -601,7 +634,7 @@ R_Config_INTC_INTP2_Start();
 Read function example :<br><br>
 </span>
 
-```
+```c
 R_Config_IIC00_Master_Send(…,reg,...)
 R_Config_IIC00_Master_Receive(…,data,...)
 ```
@@ -611,7 +644,7 @@ Write function example :<br><br>
 </span>
 
 
-```
+```c
 R_Config_IIC00_Master_Send(…,data,...)
 ```
 
@@ -649,7 +682,7 @@ R_Config_IIC00_Master_Send(…,data,...)
 Read function example :<br><br>
 </span>
 
-```
+```c
 R_Config_IICA0_Master_Send(…,reg,...)
 R_Config_IICA0_Master_Receive(…,data,...)
 ```
@@ -657,7 +690,7 @@ R_Config_IICA0_Master_Receive(…,data,...)
 Write function example :<br><br>
 </span>
 
-```
+```c
 R_Config_IICA0_Master_Send(…,data,...)
 ```
 
@@ -748,7 +781,7 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 Need to manual add driver start API , ex : <br><br>
 </span>
 
-```
+```c
 R_Config_CSI01_Start();
 ```
 
@@ -790,7 +823,7 @@ R_Config_CSI01_Start();
 Need to manual add driver start API , ex : <br><br>
 </span>
 
-```
+```c
 R_Config_UART1_Start();
 ```
 
@@ -825,6 +858,50 @@ while(STIF<span style="color:#FF0000"><b>0</b></span>  == 0)
 STIF<span style="color:#FF0000"><b>0</b></span>  = 0U\;  \/\* clear INTST0 interrupt flag \*\/
 </span>
 
+
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
+
+---
+
+# Smart Config. : UART tx , rx - polling example
+
+
+uart1 tx
+```c
+void UART1_SendByte(int c)
+{
+    STMK1 = 1U;    /* disable interrupt */
+    SDR10L = (unsigned char)c;
+    // STIF1 = 0U;    /* clear interrupt flag */  
+    while(STIF1 == 0)
+    {
+
+    }
+    STIF1 = 0U;    /* clear interrupt flag */  
+}
+```
+
+```c
+void UART1_sendString(unsigned char* str)
+{
+    while (*str) 
+    {
+        UART1_SendByte(*str++);
+    }
+}
+```
+
+uart1 rx
+```c
+int UART1_Get(void)
+{  
+    while (SRIF1 == 0);
+    SRIF1 = 0;
+    c = SDR11L;
+    return c;
+}
+```
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -908,7 +985,7 @@ duty(%) = val_s / (val_m + 1) *100 , 75/100 = val_s/(val_m + 1)
 Need to manual add driver start API , ex : <br><br>
 </span>
 
-```
+```c
 R_Config_TAU0_2_Start();
 ```
 
@@ -960,7 +1037,7 @@ R_Config_TAU0_2_Start();
 
 example : 
 
-```
+```c
 static void __near r_Config_S12AD0_interrupt(void)
 {
 /* Start user code for r_Config_S12AD0_interrupt. Do not edit comment generated here */
@@ -1023,7 +1100,7 @@ add root path under project to fix compile error issue<br><br>
 Need to manual add enable interrupt <br><br>
 </span>
 
-```
+```c
 BSP_EI();
 ```
 
@@ -1031,7 +1108,7 @@ BSP_EI();
 Need to manual add main loop , ex : <br><br>
 </span>
 
-```
+```c
 while(1)
 {
 }
