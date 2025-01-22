@@ -417,7 +417,9 @@ r_Config_TAU0_0_interrupt()
 
 # Smart Config. : Timer delay - polling (F24@40MHz)
 
-nop delay
+![](img/slide_extend_RL7859_1.png)
+
+nop delay : wait delay , 1.0562ms
 ```c
     for (i = 0; i < 2000; i++) 
     {
@@ -425,18 +427,45 @@ nop delay
     }
 ```
 
-timer delay
+timer delay : timer delay , 1.007ms @ clock src 2500KHz , fCLK/2^4 , 1ms
+
+![](img/slide_extend_RL7859_3.png)
+
+
+example 1:
 ```c
     R_Config_TAU0_0_Start();
     while(!(TCR00 == 0));
     R_Config_TAU0_0_Stop();
 ```
 
-![](img/slide_extend_RL7859_1.png)
-
-![](img/slide_extend_RL7859_3.png)
-
 ![](img/slide_extend_RL7859_2.png)
+
+example 2:
+```c
+
+    unsigned long tick_count = 0;
+
+    tick_count = 1;
+    R_Config_TAU0_0_Start();
+    while ((tick_count))
+    {
+      if (TMIF00 == 1)
+      {
+        TMIF00 = 0;
+        R_Config_TAU0_0_Stop();
+        if (--tick_count)
+        {
+          R_Config_TAU0_0_Start();
+        }
+      }
+    }
+
+```
+
+![](img/slide_extend_RL7859_4.png)
+
+
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
