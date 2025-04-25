@@ -549,6 +549,20 @@ Select target GPIO port , to set GPIO input , output<br><br>
 example
 ```c
 P7_bit.no3 = ~P7_bit.no3;
+P7_bit.no3 ^= 1;
+P7_bit.no3 = 1;
+P7_bit.no3 = 0;
+```
+```c
+/*
+  b7  b6  b5  b4  b3  b2  b1  b0
+  0   0   0   0   1   0   0   0
+*/
+#define P73_PIN				(0x08U)
+
+P7 ^= P73_PIN;    //toggle
+P7 &= ~P73_PIN;   //on
+P7 |= P73_PIN;    //off
 ```
 
 ![](img/slide_extend_RL7873.png)
