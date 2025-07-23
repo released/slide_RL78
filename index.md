@@ -771,6 +771,10 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 
 ![](img/slide_extend_RL78101.png)
 
+* reason why UART will take 2 channels : full-duplex
+[The Reason Why UART Requires Two Channels](https://en.na4.teamsupport.com/knowledgeBase/17943145)
+[Why are double channels used in UART?](https://en.na4.teamsupport.com/knowledgeBase/16980186)
+
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
