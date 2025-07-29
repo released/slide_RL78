@@ -1520,15 +1520,18 @@ how to fix
 
 # Tips : unable to set break point under debug mode
 
+
+when entry debug mode , unable to set break point
+![](img/slide_extend_RL78204.png)
+![](img/slide_extend_RL78203.png)
+
+Link Options > Output debug Information 
+![](img/slide_extend_RL78202.png)
+
 <span style="color:#FF0000">
 turn on output debug mode information <br><br>
 </span>
 
-![](img/slide_extend_RL78203.png)
-
-![](img/slide_extend_RL78202.png)
-
-how to fix
 ![](img/slide_extend_RL78200.png)
 
 ![](img/slide_extend_RL78201.png)
