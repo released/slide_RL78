@@ -1518,3 +1518,23 @@ how to fix
 
 ---
 
+# Tips : unable to set break point under debug mode
+
+<span style="color:#FF0000">
+turn on output debug mode information <br><br>
+</span>
+
+![](img/slide_extend_RL78203.png)
+
+![](img/slide_extend_RL78202.png)
+
+how to fix
+![](img/slide_extend_RL78200.png)
+
+![](img/slide_extend_RL78201.png)
+
+<u>CC-RL Compiler User's Manual</u>
+[back to top](#article_top)
+
+---
+
