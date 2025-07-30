@@ -1526,13 +1526,22 @@ when entry debug mode , unable to set break point
 ![](img/slide_extend_RL78203.png)
 
 Link Options > Output debug Information 
-![](img/slide_extend_RL78202.png)
 
 <span style="color:#FF0000">
 turn on output debug mode information <br><br>
 </span>
 
 ![](img/slide_extend_RL78200.png)
+
+Common Options > Output File Type and Path 
+
+<span style="color:#FF0000">
+enable Execute Module (Load Module File) <br><br>
+</span>
+
+![](img/slide_extend_RL78202.png)
+
+will be able to set break point after entry debug mode
 
 ![](img/slide_extend_RL78201.png)
 
