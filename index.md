@@ -96,6 +96,18 @@
 
 ![](img/slide_extend_RL7811.png)
 
+
+---
+
+# Download driver : CS+ for CC Device Information
+
+[Search : CS+ for CC Device Information and download ](https://www.renesas.com/en/search?keywords=CS%2B+for+CC+Device+Information)
+
+**get latest driver and install**
+
+![](img/slide_extend_RL7812_1.png)
+
+
 ---
 
 # Smart Configurator main window
@@ -1493,6 +1505,30 @@ Project split example , modify the projec name
 
 Add the macro define for extra project 
 ![](img/slide_extend_RL78188.png)
+
+<u>CC-RL Compiler User's Manual</u>
+[back to top](#article_top)
+
+
+---
+
+# Tips : add global variable into watch window with real time update
+
+[display value real time under watch windows](https://en-support.renesas.com/knowledgeBase/16979169)
+
+<span style="color:#FF0000">
+enable [<b>Access during the execution</b>] at Debugger Property > Debug Tool Settings tab<br>
+</span>
+
+![](img/RL78_watch_window_update1.png)
+
+<span style="color:#FF0000">
+Add (non-static) global variable/structure into watch window , by [<b>Register to Watch1</b>] and verify the variable in window<br>
+</span>
+
+![](img/RL78_watch_window_update2.png)
+
+
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
