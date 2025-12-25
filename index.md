@@ -1001,6 +1001,12 @@ int boot_UART1_Get_withTimeOut(unsigned long timeout, unsigned char *data)
 }
 ```
 
+# more UART example , refer to 
+
+- RL78 G16 
+  - __UART TX and RX__ : /drv/drv_uart.c in [RL78_G16_ADC_PWM_Input_Pulse_UART_1M](https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M)
+
+
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
@@ -1089,6 +1095,17 @@ R_Config_TAU0_2_Start();
 
 ![](img/slide_extend_RL78130.png)
 
+
+# more PWM example , refer to 
+
+- RL78 G16 
+  - __PWM output__ :  /drv/drv_pwm_output.c in [RL78_G16_ADC_PWM_Input_Pulse_UART_1M](https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M)
+  - __breathing led by PWM__ :  /drv/drv_pwm_breath.c in [RL78_G16_ADC_PWM_Input_Pulse_UART_1M](https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M)
+  - __sweep led by PWM__ :  /drv/drv_pwm_sweep.c in [RL78_G16_ADC_PWM_Input_Pulse_UART_1M](https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M)
+  - __PWM input capture__ : /drv/drv_pwm_input.c in [RL78_G16_ADC_PWM_Input_Pulse_UART_1M](https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M)
+
+
+
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
@@ -1165,6 +1182,13 @@ void GetADC(unsigned char ch)
 ```
 
 ![](img/slide_extend_RL78139.png)
+
+
+# more ADC example , refer to 
+
+- RL78 G16 
+  - __get VDD voltage + multi ADC channel__ : /drv/drv_adc.c in [RL78_G16_ADC_PWM_Input_Pulse_UART_1M](https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M)
+
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
