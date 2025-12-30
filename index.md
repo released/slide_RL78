@@ -722,13 +722,11 @@ R_Config_IIC00_Master_Send(…,data,...)
 - RL78 F13
   - __read__ : 
   ```c
-  MD_STATUS drv_IIC10_I2C_read(unsigned char adr, unsigned char * const rx_buf, unsigned short rx_num)
-
+  MD_STATUS IIC10_I2C_read(unsigned char device_addr,unsigned char reg_addr,unsigned char* rx_xfer_data,unsigned short rx_num)
   ```
   - __write__ :
   ```c
-  MD_STATUS drv_IIC10_I2C_write(unsigned char adr, unsigned char * const tx_buf, unsigned short tx_num)
-
+  MD_STATUS IIC10_I2C_write(unsigned char device_addr,unsigned char reg_addr,unsigned char* tx_xfer_data,unsigned short tx_num)
   ```
   - check /simple_i2c_driver.c in [https://github.com/released/RL78_F13_IIC10_I2C_TCA9548A_DF8100](https://github.com/released/RL78_F13_IIC10_I2C_TCA9548A_DF8100)
 
