@@ -1723,3 +1723,38 @@ will be able to set break point after entry debug mode
 
 ---
 
+# Tips : How to copy project without config/compiler error
+
+- step 1 : copy target project and ==rename== the new project 
+
+ex : 
+old project NAME : RL78_G16_ADC_PWM_Input_Pulse_UART_1M
+new project NAME : RL78_G16_ADC_PWM_INTP_UART_1M
+
+![](img/project_copy_1.png)
+
+- step 2 : under the new project folder , ==rename below 4 project CONFIG files (__mtud , mtpj , rcpe , scfg__)== , to new project name (ex : RL78_G16_ADC_PWM_INTP_UART_1M.xxx )
+
+![](img/project_copy_2.png)
+
+- step 3 : OPEN the ==4 project CONFIG files (__mtud , mtpj , rcpe , scfg__)== by NOTEPAD++ , at the same time
+
+![](img/project_copy_3.png)
+
+- step 4 : ==use ctrl+C== , to __SEARCH__ the OLD project name (ex : RL78_G16_ADC_PWM_Input_Pulse_UART_1M) under all opened files
+
+![](img/project_copy_4.png)
+
+- step 5 : wil see below result , the OLD project name will appear under below 3 project CONFIG files (__mtud , mtpj , rcpe__)
+
+![](img/project_copy_5.png)
+
+
+- step 6 : ==use ctrl+H== , __FIND AND REPLACE__ , find the OLD project name (ex : RL78_G16_ADC_PWM_Input_Pulse_UART_1M) and repalce with new project name (ex : RL78_G16_ADC_PWM_INTP_UART_1M) under all opened files
+
+![](img/project_copy_6.png)
+
+<u>CC-RL Compiler User's Manual</u>
+[back to top](#article_top)
+
+---

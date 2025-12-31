@@ -1226,6 +1226,37 @@ Writing to the on-chip debug reserved area is prohibited.(address: 0x00000002)(E
 <p><u>CC-RL Compiler User's Manual</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
+<h1 id="tips--how-to-copy-project-without-configcompiler-error">Tips : How to copy project without config/compiler error </h1>
+<ul>
+<li>step 1 : copy target project and <mark>rename</mark> the new project</li>
+</ul>
+<p>ex :<br>
+old project NAME : RL78_G16_ADC_PWM_Input_Pulse_UART_1M<br>
+new project NAME : RL78_G16_ADC_PWM_INTP_UART_1M</p>
+<p><img src="img/project_copy_1.png" alt=""></p>
+<ul>
+<li>step 2 : under the new project folder , <mark>rename below 4 project CONFIG files (<strong>mtud , mtpj , rcpe , scfg</strong>)</mark> , to new project name (ex : RL78_G16_ADC_PWM_INTP_UART_1M.xxx )</li>
+</ul>
+<p><img src="img/project_copy_2.png" alt=""></p>
+<ul>
+<li>step 3 : OPEN the <mark>4 project CONFIG files (<strong>mtud , mtpj , rcpe , scfg</strong>)</mark> by NOTEPAD++ , at the same time</li>
+</ul>
+<p><img src="img/project_copy_3.png" alt=""></p>
+<ul>
+<li>step 4 : <mark>use ctrl+C</mark> , to <strong>SEARCH</strong> the OLD project name (ex : RL78_G16_ADC_PWM_Input_Pulse_UART_1M) under all opened files</li>
+</ul>
+<p><img src="img/project_copy_4.png" alt=""></p>
+<ul>
+<li>step 5 : wil see below result , the OLD project name will appear under below 3 project CONFIG files (<strong>mtud , mtpj , rcpe</strong>)</li>
+</ul>
+<p><img src="img/project_copy_5.png" alt=""></p>
+<ul>
+<li>step 6 : <mark>use ctrl+H</mark> , <strong>FIND AND REPLACE</strong> , find the OLD project name (ex : RL78_G16_ADC_PWM_Input_Pulse_UART_1M) and repalce with new project name (ex : RL78_G16_ADC_PWM_INTP_UART_1M) under all opened files</li>
+</ul>
+<p><img src="img/project_copy_6.png" alt=""></p>
+<p><u>CC-RL Compiler User's Manual</u><br>
+<a href="#article_top">back to top</a></p>
+<hr>
 </span></span>
       </div>
       <div class="md-sidebar-toc">
@@ -1493,6 +1524,10 @@ Writing to the on-chip debug reserved area is prohibited.(address: 0x00000002)(E
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
           <a href="#tips--unable-to-set-break-point-under-debug-mode" class="md-toc-link">
             <p>Tips : unable to set break point under debug mode</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#tips--how-to-copy-project-without-configcompiler-error" class="md-toc-link">
+            <p>Tips : How to copy project without config/compiler error</p>
 
           </a></div>
 </div>
