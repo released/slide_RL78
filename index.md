@@ -1701,7 +1701,7 @@ when entry debug mode , unable to set break point
 Link Options > Output debug Information 
 
 <span style="color:#FF0000">
-turn on output debug mode information <br><br>
+<b>turn on output debug mode information</b> <br><br>
 </span>
 
 ![](img/slide_extend_RL78200.png)
@@ -1709,7 +1709,7 @@ turn on output debug mode information <br><br>
 Common Options > Output File Type and Path 
 
 <span style="color:#FF0000">
-enable Execute Module (Load Module File) <br><br>
+<b>enable Execute Module (Load Module File)</b> <br><br>
 </span>
 
 ![](img/slide_extend_RL78202.png)
