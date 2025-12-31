@@ -764,7 +764,7 @@ STIF<span style="color:#FF0000"><b>0</b></span>  = 0U;  /* clear INTST0 interrup
 <ul>
 <li>RL78 G16
 <ul>
-<li><strong>UART TX and RX</strong> : /drv/drv_uart.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
+<li><strong>UART TX and RX</strong> : check /drv/drv_uart.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
 </ul>
 </li>
 </ul>
@@ -822,10 +822,10 @@ Need to manual add driver start API , ex : <br><br>
 <ul>
 <li>RL78 G16
 <ul>
-<li><strong>PWM output</strong> :  /drv/drv_pwm_output.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
-<li><strong>breathing led by PWM</strong> :  /drv/drv_pwm_breath.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
-<li><strong>sweep led by PWM</strong> :  /drv/drv_pwm_sweep.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
-<li><strong>PWM input capture</strong> : /drv/drv_pwm_input.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
+<li><strong>PWM output</strong> : check /drv/drv_pwm_output.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
+<li><strong>breathing led by PWM</strong> : check /drv/drv_pwm_breath.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
+<li><strong>sweep led by PWM</strong> : check /drv/drv_pwm_sweep.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
+<li><strong>PWM input capture</strong> : check /drv/drv_pwm_input.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
 </ul>
 </li>
 </ul>
@@ -883,13 +883,41 @@ Need to manual add driver start API , ex : <br><br>
 </code></pre><p><img src="img/slide_extend_RL78139.png" alt=""></p>
 <h1 id="more-adc-example--refer-to">more ADC example , refer to </h1>
 <ul>
-<li>RL78 G16
+<li>
+<p>RL78 G16</p>
 <ul>
-<li><strong>get VDD voltage + multi ADC channel</strong> : /drv/drv_adc.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></li>
+<li>
+<p><strong>get VDD voltage + multi ADC channel</strong> : check /drv/drv_adc.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_Input_Pulse_UART_1M">RL78_G16_ADC_PWM_Input_Pulse_UART_1M</a></p>
+</li>
+<li>
+<p><strong>GetADC</strong> : check /custom_func.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_DataFlash">RL78_G16_ADC_PWM_DataFlash</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>RL78 G15</p>
+<ul>
+<li><strong>GetADC</strong> : check /custom_func.c in <a href="https://github.com/released/RL78_G15_ADC_PWM_Input_Pulse">RL78_G15_ADC_PWM_Input_Pulse</a></li>
 </ul>
 </li>
 </ul>
-<p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-void">void</span> <span class="token function">GetADC</span><span class="token punctuation">(</span><span class="token class-name">e_ad_channel_t</span> ch<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-unsigned">unsigned</span> <span class="token keyword keyword-short">short</span> tmp_buffer <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+    <span class="token function">R_Config_ADC_Set_ADChannel</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    FLAG_PROJ_TRIG_ADC_CH <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token function">R_Config_ADC_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-while">while</span><span class="token punctuation">(</span><span class="token operator">!</span>FLAG_PROJ_TRIG_ADC_CH<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">R_Config_ADC_Get_Result_10bit</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>tmp_buffer<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">R_Config_ADC_Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    FLAG_PROJ_TRIG_ADC_CH <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+    adc_buffer<span class="token punctuation">[</span>ch<span class="token punctuation">]</span> <span class="token operator">=</span> tmp_buffer<span class="token punctuation">;</span>    
+
+    <span class="token comment">// printf_tiny("ch[%d]:0x%04X\r\n",ch,adc_buffer[ch]);</span>
+<span class="token punctuation">}</span>
+</code></pre><p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
 <h1 id="cs--add-root-path-in-path-edit">CS+ : Add root path in Path Edit </h1>
