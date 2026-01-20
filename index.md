@@ -644,6 +644,21 @@ R_Config_INTC_INTP2_Start();
 ![](img/slide_extend_RL7883.png)
 
 
+
+
+# more INTC example , refer to 
+
+- RL78 G16 
+  - __external_input_with_timer_100us__ 
+  ```c
+  void drv_pulse_input_tick_isr(void)
+
+  void drv_pulse_input_irq_handler(void)  
+  ```  
+  - check /drv/drv_pulse_input.c in [RL78_G16_ADC_PWM_INTP_UART_1M](https://github.com/released/RL78_G16_ADC_PWM_INTP_UART_1M)
+
+
+
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 

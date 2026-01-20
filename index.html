@@ -391,6 +391,20 @@ Need to manual add driver start API , ex : <br><br>
 </span>
 <pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token function">R_Config_INTC_INTP2_Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><p><img src="img/slide_extend_RL7883.png" alt=""></p>
+<h1 id="more-intc-example--refer-to">more INTC example , refer to </h1>
+<ul>
+<li>RL78 G16
+<ul>
+<li><strong>external_input_with_timer_100us</strong></li>
+</ul>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-void">void</span> <span class="token function">drv_pulse_input_tick_isr</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span><span class="token punctuation">)</span>
+
+<span class="token keyword keyword-void">void</span> <span class="token function">drv_pulse_input_irq_handler</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span><span class="token punctuation">)</span>  
+</code></pre><ul>
+<li>check /drv/drv_pulse_input.c in <a href="https://github.com/released/RL78_G16_ADC_PWM_INTP_UART_1M">RL78_G16_ADC_PWM_INTP_UART_1M</a></li>
+</ul>
+</li>
+</ul>
 <p><u>RL78 Smart Configurator User's Guide: CS+</u><br>
 <a href="#article_top">back to top</a></p>
 <hr>
@@ -1364,6 +1378,10 @@ new project NAME : RL78_G16_ADC_PWM_INTP_UART_1M</p>
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
           <a href="#smart-config--external-int" class="md-toc-link">
             <p>Smart Config. : external int.</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#more-intc-example--refer-to" class="md-toc-link">
+            <p>more INTC example , refer to</p>
 
           </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
           <a href="#smart-config--i2c" class="md-toc-link">
