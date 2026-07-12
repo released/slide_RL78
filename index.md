@@ -1,9 +1,31 @@
 
-[return to index](https://released.github.io/)
+[回到知識庫總索引](https://released.github.io/)
 
 <a id="article_top"></a>
 
-# Agenda
+# RL78 開發工具與周邊實作
+
+> 以 Renesas RL78 為核心，從 IDE、compiler、Smart Configurator 與燒錄工具開始，逐步完成 clock、GPIO、timer、通訊介面、PWM、ADC 與除錯實作。
+
+## 學習目標
+
+- 建立 CS+、e² studio、CC-RL、Smart Configurator 與 Renesas Flash Programmer 的角色分工。
+- 能從建立專案、產生周邊 driver、加入應用程式，到編譯與燒錄完成一條開發流程。
+- 能依 clock、pin、register、interrupt 與量測結果逐層排除周邊異常。
+
+## 學習路徑
+
+```mermaid
+flowchart LR
+    TOOL["安裝 IDE / Compiler / Debug Tool"] --> PROJECT["建立 RL78 專案"]
+    PROJECT --> CONFIG["Clock 與 Pin 設定"]
+    CONFIG --> DRIVER["Smart Configurator 產生 Driver"]
+    DRIVER --> APP["Timer / GPIO / I2C / SPI / UART / ADC"]
+    APP --> BUILD["Build 與 Flash Programming"]
+    BUILD --> DEBUG["Watch Window / Register / 波形除錯"]
+```
+
+## 教材目錄
 
 * IDE 開發工具的安裝&介紹
   * CS+ , e² studio , CCRH , CCRL , Smart Configurator , Renesas Flash programmer
