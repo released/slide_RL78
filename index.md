@@ -58,9 +58,9 @@ flowchart LR
 
 [IDE – e² studio](https://www.renesas.com/en/software-tool/e-studio)
 
-![](img/slide_extend_RL780.png)
+![IDE & Debug tool — slide extend RL780](img/slide_extend_RL780.png)
 
-![](img/slide_extend_RL781.png)
+![IDE & Debug tool — slide extend RL781](img/slide_extend_RL781.png)
 
 ---
 
@@ -69,9 +69,9 @@ flowchart LR
 
 [CS+ User’s Manual](https://www.renesas.com/en/software-tool/cs)
 
-![](img/slide_extend_RL782.png)
+![User manual : CS+ — slide extend RL782](img/slide_extend_RL782.png)
 
-![](img/slide_extend_RL783.png)
+![User manual : CS+ — slide extend RL783](img/slide_extend_RL783.png)
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
 [back to top](#article_top)
@@ -83,9 +83,9 @@ flowchart LR
 
 [e² studio User’s Manual](https://www.renesas.com/en/software-tool/e-studio)
 
-![](img/slide_extend_RL784.png)
+![User manual : e² studio — slide extend RL784](img/slide_extend_RL784.png)
 
-![](img/slide_extend_RL785.png)
+![User manual : e² studio — slide extend RL785](img/slide_extend_RL785.png)
 
 ---
 
@@ -99,13 +99,13 @@ flowchart LR
 
 [Compiler Licenses](https://www.renesas.com/en/software-tool/compiler-licenses)
 
-![](img/slide_extend_RL787.png)
+![Compiler : CC-RL for RL78 — slide extend RL787](img/slide_extend_RL787.png)
 
-![](img/slide_extend_RL786.png)
+![Compiler : CC-RL for RL78 — slide extend RL786](img/slide_extend_RL786.png)
 
-![](img/slide_extend_RL788.png)
+![Compiler : CC-RL for RL78 — slide extend RL788](img/slide_extend_RL788.png)
 
-![](img/slide_extend_RL789.png)
+![Compiler : CC-RL for RL78 — slide extend RL789](img/slide_extend_RL789.png)
 
 ---
 
@@ -114,9 +114,9 @@ flowchart LR
 
 [Compiler CC-RL User’s Manual](https://www.renesas.com/en/software-tool/c-compiler-package-rl78-family)
 
-![](img/slide_extend_RL7810.png)
+![User manual : CC-RL for RL78 — slide extend RL7810](img/slide_extend_RL7810.png)
 
-![](img/slide_extend_RL7811.png)
+![User manual : CC-RL for RL78 — slide extend RL7811](img/slide_extend_RL7811.png)
 
 
 ---
@@ -127,7 +127,7 @@ flowchart LR
 
 **get latest driver and install**
 
-![](img/slide_extend_RL7812_1.png)
+![Download driver : CS+ for CC Device Information — slide extend RL7812 1](img/slide_extend_RL7812_1.png)
 
 
 ---
@@ -138,7 +138,7 @@ flowchart LR
 
 ***Base on selected IDE , install the related Smart Configurator**
 
-![](img/slide_extend_RL7812.png)
+![Smart Configurator main window — slide extend RL7812](img/slide_extend_RL7812.png)
 
 ---
 
@@ -147,17 +147,17 @@ flowchart LR
 
 [Renesas Flash Programmer (Programming GUI)](https://www.renesas.com/en/software-tool/renesas-flash-programmer-programming-gui)
 
-![](img/slide_extend_RL7813.png)
+![Renesas Flash Programmer — slide extend RL7813](img/slide_extend_RL7813.png)
 
-![](img/slide_extend_RL7814.png)
+![Renesas Flash Programmer — slide extend RL7814](img/slide_extend_RL7814.png)
 
 ---
 
 # Create project by CS+ (RL78)
 
-![](img/slide_extend_RL7816.png)
+![Create project by CS+ (RL78) — slide extend RL7816](img/slide_extend_RL7816.png)
 
-![](img/slide_extend_RL7815.png)
+![Create project by CS+ (RL78) — slide extend RL7815](img/slide_extend_RL7815.png)
 
 
 <u>Integrated Development Environment User's Manual: Project Operation</u>
@@ -167,19 +167,19 @@ flowchart LR
 
 # CS+ (RL78) : main window
 
-![](img/slide_extend_RL7817.png)
+![CS+ (RL78) : main window — slide extend RL7817](img/slide_extend_RL7817.png)
 
 ---
 
 # CS+ (RL78) : open smart configurator
 
-![](img/slide_extend_RL7818.png)
+![CS+ (RL78) : open smart configurator — slide extend RL7818](img/slide_extend_RL7818.png)
 
 <span style="color:#FF0000">
 Open smart configurator from IDE (CS+)<br><br> 
 </span>
     
-![](img/slide_extend_RL7819.png)
+![CS+ (RL78) : open smart configurator — slide extend RL7819](img/slide_extend_RL7819.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 <u>Smart Configurator User's Manual: RL78 API Reference</u>
@@ -189,9 +189,9 @@ Open smart configurator from IDE (CS+)<br><br>
 
 # CS+ (RL78) : CC-RL options
 
-![](img/slide_extend_RL7820.png)
+![CS+ (RL78) : CC-RL options — slide extend RL7820](img/slide_extend_RL7820.png)
 
-![](img/slide_extend_RL7821.png)
+![CS+ (RL78) : CC-RL options — slide extend RL7821](img/slide_extend_RL7821.png)
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
 [back to top](#article_top)
@@ -204,10 +204,10 @@ Open smart configurator from IDE (CS+)<br><br>
 Select Debug Tool<br><br>
 </span>
 
-![](img/slide_extend_RL7822.png)
+![CS+ (RL78) : Debug Tool options — slide extend RL7822](img/slide_extend_RL7822.png)
 
 
-![](img/slide_extend_RL7823.png)
+![CS+ (RL78) : Debug Tool options — slide extend RL7823](img/slide_extend_RL7823.png)
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
 [back to top](#article_top)
@@ -216,7 +216,7 @@ Select Debug Tool<br><br>
 
 # Smart Config. : main window (RL78)
 
-![](img/slide_extend_RL7824.png)
+![Smart Config. : main window (RL78) — slide extend RL7824](img/slide_extend_RL7824.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top) 
@@ -227,7 +227,7 @@ Select Debug Tool<br><br>
 
 # Smart Config. : Clock
 
-![](img/slide_extend_RL7825.png)
+![Smart Config. : Clock — slide extend RL7825](img/slide_extend_RL7825.png)
 
 
 <span style="color:#FF0000">
@@ -238,26 +238,26 @@ Select high speed on chip osc:40MHz<br><br>
 If want to enable PLL , select on chip osc: 20MHz<br><br>
 </span>  
 
-![](img/slide_extend_RL7826.png)
+![Smart Config. : Clock — slide extend RL7826](img/slide_extend_RL7826.png)
 
-![](img/slide_extend_RL7827.png)
+![Smart Config. : Clock — slide extend RL7827](img/slide_extend_RL7827.png)
 
-![](img/slide_extend_RL7828.png)
+![Smart Config. : Clock — slide extend RL7828](img/slide_extend_RL7828.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL7829.png)
+![Smart Config. : Clock — slide extend RL7829](img/slide_extend_RL7829.png)
 
-![](img/slide_extend_RL7830.png)
+![Smart Config. : Clock — slide extend RL7830](img/slide_extend_RL7830.png)
 
 <span style="color:#FF0000">
 Enable X1 osc , will use X1 , X2 pin<br><br>
 </span>  
 
-![](img/slide_extend_RL7831.png)
+![Smart Config. : Clock — slide extend RL7831](img/slide_extend_RL7831.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -266,9 +266,9 @@ Enable X1 osc , will use X1 , X2 pin<br><br>
 
 # Smart Config. : add component
 
-![](img/slide_extend_RL7832.png)
+![Smart Config. : add component — slide extend RL7832](img/slide_extend_RL7832.png)
 
-![](img/slide_extend_RL7833.png)
+![Smart Config. : add component — slide extend RL7833](img/slide_extend_RL7833.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -279,11 +279,11 @@ Enable X1 osc , will use X1 , X2 pin<br><br>
 
 # Smart Config. : Interval Timer
 
-![](img/slide_extend_RL7835.png)
+![Smart Config. : Interval Timer — slide extend RL7835](img/slide_extend_RL7835.png)
 
-![](img/slide_extend_RL7834.png)
+![Smart Config. : Interval Timer — slide extend RL7834](img/slide_extend_RL7834.png)
 
-![](img/slide_extend_RL7836.png)
+![Smart Config. : Interval Timer — slide extend RL7836](img/slide_extend_RL7836.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -294,14 +294,14 @@ Enable X1 osc , will use X1 , X2 pin<br><br>
 TAUxx timer difference<br><br>
 </span>  
 
-![](img/slide_extend_RL7837.png)
+![Smart Config. : Interval Timer — slide extend RL7837](img/slide_extend_RL7837.png)
 
 
 <span style="color:#FF0000">
 TAUxx timer clock source<br><br>
 </span>
 
-![](img/slide_extend_RL7838.png)
+![Smart Config. : Interval Timer — slide extend RL7838](img/slide_extend_RL7838.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -309,9 +309,9 @@ TAUxx timer clock source<br><br>
 
 ---
 
-![](img/slide_extend_RL7839.png)
+![Smart Config. : Interval Timer — slide extend RL7839](img/slide_extend_RL7839.png)
 
-![](img/slide_extend_RL7840.png)
+![Smart Config. : Interval Timer — slide extend RL7840](img/slide_extend_RL7840.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -322,11 +322,11 @@ TAUxx timer clock source<br><br>
 Press <b>[Generate Code]</b> in Smart config. will automatically generate driver source code under CS+ project<br><br>
 </span> 
 
-![](img/slide_extend_RL7841.png)
+![Smart Config. : Interval Timer — slide extend RL7841](img/slide_extend_RL7841.png)
 
-![](img/slide_extend_RL7842.png)
+![Smart Config. : Interval Timer — slide extend RL7842](img/slide_extend_RL7842.png)
 
-![](img/slide_extend_RL7843.png)
+![Smart Config. : Interval Timer — slide extend RL7843](img/slide_extend_RL7843.png)
 
  
 
@@ -339,9 +339,9 @@ Press <b>[Generate Code]</b> in Smart config. will automatically generate driver
 Re-build project , will see the build result is complete without error<br><br>
 </span>
 
-![](img/slide_extend_RL7845.png)
+![Smart Config. : Interval Timer — slide extend RL7845](img/slide_extend_RL7845.png)
 
-![](img/slide_extend_RL7844.png)
+![Smart Config. : Interval Timer — slide extend RL7844](img/slide_extend_RL7844.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -349,15 +349,15 @@ Re-build project , will see the build result is complete without error<br><br>
 
 ---
 
-![](img/slide_extend_RL7846.png)
+![Smart Config. : Interval Timer — slide extend RL7846](img/slide_extend_RL7846.png)
 
-![](img/slide_extend_RL7847.png)
+![Smart Config. : Interval Timer — slide extend RL7847](img/slide_extend_RL7847.png)
 
-![](img/slide_extend_RL7848.png)
+![Smart Config. : Interval Timer — slide extend RL7848](img/slide_extend_RL7848.png)
 
-![](img/slide_extend_RL7849.png)
+![Smart Config. : Interval Timer — slide extend RL7849](img/slide_extend_RL7849.png)
 
-![](img/slide_extend_RL7850.png)
+![Smart Config. : Interval Timer — slide extend RL7850](img/slide_extend_RL7850.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -385,7 +385,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_TAU0_0_Start(); 
 ```
 
-![](img/slide_extend_RL7851.png)
+![Smart Config. : Interval Timer — slide extend RL7851](img/slide_extend_RL7851.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -403,20 +403,20 @@ Need to manual add include file , to fix warning<br><br>
 #include "platform.h"
 ```
 
-![](img/slide_extend_RL7852.png)
+![Smart Config. : Interval Timer — slide extend RL7852](img/slide_extend_RL7852.png)
 
-![](img/slide_extend_RL7853.png)
+![Smart Config. : Interval Timer — slide extend RL7853](img/slide_extend_RL7853.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL7856.png)
+![Smart Config. : Interval Timer — slide extend RL7856](img/slide_extend_RL7856.png)
 
-![](img/slide_extend_RL7854.png)
+![Smart Config. : Interval Timer — slide extend RL7854](img/slide_extend_RL7854.png)
 
-![](img/slide_extend_RL7855.png)
+![Smart Config. : Interval Timer — slide extend RL7855](img/slide_extend_RL7855.png)
 
 
 <span style="color:#FF0000">
@@ -427,9 +427,9 @@ Add TIMER interrupt function under <br><br>
 r_Config_TAU0_0_interrupt()
 ```
 
-![](img/slide_extend_RL7857.png)
+![Smart Config. : Interval Timer — slide extend RL7857](img/slide_extend_RL7857.png)
 
-![](img/slide_extend_RL7858.png)
+![Smart Config. : Interval Timer — slide extend RL7858](img/slide_extend_RL7858.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -439,9 +439,9 @@ r_Config_TAU0_0_interrupt()
 
 # Smart Config. : Timer delay - interrupt
 
-![](img/slide_extend_RL7860.png)
+![Smart Config. : Timer delay - interrupt — slide extend RL7860](img/slide_extend_RL7860.png)
 
-![](img/slide_extend_RL7859.png)
+![Smart Config. : Timer delay - interrupt — slide extend RL7859](img/slide_extend_RL7859.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -451,7 +451,7 @@ r_Config_TAU0_0_interrupt()
 
 # Smart Config. : Timer delay - polling (F24@40MHz)
 
-![](img/slide_extend_RL7859_1.png)
+![Smart Config. : Timer delay - polling (F24@40MHz) — slide extend RL7859 1](img/slide_extend_RL7859_1.png)
 
 nop delay : wait delay , 1.0562ms
 ```c
@@ -463,7 +463,7 @@ nop delay : wait delay , 1.0562ms
 
 timer delay : timer delay , 1.007ms @ clock src 2500KHz , fCLK/2^4 , 1ms
 
-![](img/slide_extend_RL7859_3.png)
+![Smart Config. : Timer delay - polling (F24@40MHz) — slide extend RL7859 3](img/slide_extend_RL7859_3.png)
 
 
 example 1:
@@ -473,7 +473,7 @@ example 1:
     R_Config_TAU0_0_Stop();
 ```
 
-![](img/slide_extend_RL7859_2.png)
+![Smart Config. : Timer delay - polling (F24@40MHz) — slide extend RL7859 2](img/slide_extend_RL7859_2.png)
 
 example 2:
 ```c
@@ -497,7 +497,7 @@ example 2:
 
 ```
 
-![](img/slide_extend_RL7859_4.png)
+![Smart Config. : Timer delay - polling (F24@40MHz) — slide extend RL7859 4](img/slide_extend_RL7859_4.png)
 
 
 
@@ -512,9 +512,9 @@ example 2:
 [Generate Code] in Smart configurator , will re-generate driver code <b><u>every time</b></u><br><br>
 </span> 
 
-![](img/slide_extend_RL7861.png)
+![Smart Config. : Generate code — slide extend RL7861](img/slide_extend_RL7861.png)
 
-![](img/slide_extend_RL7862.png)
+![Smart Config. : Generate code — slide extend RL7862](img/slide_extend_RL7862.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -528,11 +528,11 @@ example 2:
 Put custom application code , variable , declaration , between these 2 comment , will merge into driver code when execute [Generate Code] in Smart config<br><br>
 </span>  
 
-![](img/slide_extend_RL7863.png)
+![CS+ : driver code — slide extend RL7863](img/slide_extend_RL7863.png)
 
-![](img/slide_extend_RL7864.png)
+![CS+ : driver code — slide extend RL7864](img/slide_extend_RL7864.png)
 
-![](img/slide_extend_RL7865.png)
+![CS+ : driver code — slide extend RL7865](img/slide_extend_RL7865.png)
 
 
 
@@ -547,9 +547,9 @@ Put custom application code , variable , declaration , between these 2 comment ,
 # Smart Config. : GPIO
 
 
-![](img/slide_extend_RL7866.png)
+![Smart Config. : GPIO — slide extend RL7866](img/slide_extend_RL7866.png)
 
-![](img/slide_extend_RL7867.png)
+![Smart Config. : GPIO — slide extend RL7867](img/slide_extend_RL7867.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -560,18 +560,18 @@ Put custom application code , variable , declaration , between these 2 comment ,
 Select target GPIO port , to set GPIO input , output<br><br>
 </span>
 
-![](img/slide_extend_RL7868.png)
+![Smart Config. : GPIO — slide extend RL7868](img/slide_extend_RL7868.png)
 
-![](img/slide_extend_RL7869.png)
+![Smart Config. : GPIO — slide extend RL7869](img/slide_extend_RL7869.png)
 
-![](img/slide_extend_RL7870.png)
+![Smart Config. : GPIO — slide extend RL7870](img/slide_extend_RL7870.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL7871.png)
+![Smart Config. : GPIO — slide extend RL7871](img/slide_extend_RL7871.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -599,11 +599,11 @@ P7 &= ~P73_PIN;   //on
 P7 |= P73_PIN;    //off
 ```
 
-![](img/slide_extend_RL7873.png)
+![Smart Config. : GPIO control example — slide extend RL7873](img/slide_extend_RL7873.png)
 
-![](img/slide_extend_RL7874.png)
+![Smart Config. : GPIO control example — slide extend RL7874](img/slide_extend_RL7874.png)
 
-![](img/slide_extend_RL7872.png)
+![Smart Config. : GPIO control example — slide extend RL7872](img/slide_extend_RL7872.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -614,9 +614,9 @@ P7 |= P73_PIN;    //off
 
 [https://www\.renesas\.com/en/products/microcontrollers\-microprocessors/rl78\-low\-power\-8\-16\-bit\-mcus/rl78f24\-next\-generation\-actuator\-and\-sensor\-microcontroller](https://www.renesas.com/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78f24-next-generation-actuator-and-sensor-microcontroller)
 
-![](img/slide_extend_RL7876.png)
+![RL78 F24 example code — slide extend RL7876](img/slide_extend_RL7876.png)
 
-![](img/slide_extend_RL7875.png)
+![RL78 F24 example code — slide extend RL7875](img/slide_extend_RL7875.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -628,31 +628,31 @@ P7 |= P73_PIN;    //off
 # Smart Config. : external int.
 
 
-![](img/slide_extend_RL7877.png)
+![Smart Config. : external int. — slide extend RL7877](img/slide_extend_RL7877.png)
 
-![](img/slide_extend_RL7878.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](img/slide_extend_RL7879.png)
+![Smart Config. : external int. — slide extend RL7878](img/slide_extend_RL7878.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL7880.png)
+![Smart Config. : external int. — slide extend RL7879](img/slide_extend_RL7879.png)
 
-![](img/slide_extend_RL7881.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
+
+---
+
+![Smart Config. : external int. — slide extend RL7880](img/slide_extend_RL7880.png)
+
+![Smart Config. : external int. — slide extend RL7881](img/slide_extend_RL7881.png)
 
 <span style="color:#FF0000">
 Add code when trigger external interrupt INTP2<br><br>
 </span>
 
-![](img/slide_extend_RL7882.png)
+![Smart Config. : external int. — slide extend RL7882](img/slide_extend_RL7882.png)
 
 
 <span style="color:#FF0000">
@@ -663,7 +663,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_INTC_INTP2_Start();
 ```
 
-![](img/slide_extend_RL7883.png)
+![Smart Config. : external int. — slide extend RL7883](img/slide_extend_RL7883.png)
 
 
 
@@ -691,36 +691,36 @@ R_Config_INTC_INTP2_Start();
 # Smart Config. : I2C
 
 
-![](img/slide_extend_RL7884.png)
+![Smart Config. : I2C — slide extend RL7884](img/slide_extend_RL7884.png)
 
-![](img/slide_extend_RL7886.png)
+![Smart Config. : I2C — slide extend RL7886](img/slide_extend_RL7886.png)
 
-![](img/slide_extend_RL7885.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](img/slide_extend_RL7887.png)
+![Smart Config. : I2C — slide extend RL7885](img/slide_extend_RL7885.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL7888.png)
+![Smart Config. : I2C — slide extend RL7887](img/slide_extend_RL7887.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL7889.png)
+![Smart Config. : I2C — slide extend RL7888](img/slide_extend_RL7888.png)
 
-![](img/slide_extend_RL7890.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
 
-![](img/slide_extend_RL7891.png)
+---
+
+![Smart Config. : I2C — slide extend RL7889](img/slide_extend_RL7889.png)
+
+![Smart Config. : I2C — slide extend RL7890](img/slide_extend_RL7890.png)
+
+![Smart Config. : I2C — slide extend RL7891](img/slide_extend_RL7891.png)
 
 <span style="color:#FF0000">
 Read function example :<br><br>
@@ -787,27 +787,27 @@ R_Config_IIC00_Master_Send(…,data,...)
 
 # Smart Config. : I2C(IICA0)
 
-![](img/slide_extend_RL7893.png)
+![Smart Config. : I2C(IICA0) — slide extend RL7893](img/slide_extend_RL7893.png)
 
-![](img/slide_extend_RL7892.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](img/slide_extend_RL7894.png)
+![Smart Config. : I2C(IICA0) — slide extend RL7892](img/slide_extend_RL7892.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL7895.png)
+![Smart Config. : I2C(IICA0) — slide extend RL7894](img/slide_extend_RL7894.png)
 
-![](img/slide_extend_RL7896.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
 
-![](img/slide_extend_RL7897.png)
+---
+
+![Smart Config. : I2C(IICA0) — slide extend RL7895](img/slide_extend_RL7895.png)
+
+![Smart Config. : I2C(IICA0) — slide extend RL7896](img/slide_extend_RL7896.png)
+
+![Smart Config. : I2C(IICA0) — slide extend RL7897](img/slide_extend_RL7897.png)
 
 <span style="color:#FF0000">
 Read function example :<br><br>
@@ -885,9 +885,9 @@ R_Config_IICA0_Master_Send(…,data,...)
 
 # Smart Config. : SPI (CSI)
 
-![](img/slide_extend_RL7899.png)
+![Smart Config. : SPI (CSI) — slide extend RL7899](img/slide_extend_RL7899.png)
 
-![](img/slide_extend_RL7898.png)
+![Smart Config. : SPI (CSI) — slide extend RL7898](img/slide_extend_RL7898.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -898,7 +898,7 @@ R_Config_IICA0_Master_Send(…,data,...)
 To fix conflict , select other SAU port , each SAU channel only support one function at the same time<br><br>
 </span>
 
-![](img/slide_extend_RL78100.png)
+![Smart Config. : SPI (CSI) — slide extend RL78100](img/slide_extend_RL78100.png)
 
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
@@ -908,7 +908,7 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 
 # Smart Config. : CSI table for SPI/UART/I2C
 
-![](img/slide_extend_RL78101.png)
+![Smart Config. : CSI table for SPI/UART/I2C — slide extend RL78101](img/slide_extend_RL78101.png)
 
 * reason why UART will take 2 channels : full-duplex
 [The Reason Why UART Requires Two Channels](https://en.na4.teamsupport.com/knowledgeBase/17943145)
@@ -919,7 +919,7 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 
 ---
 
-![](img/slide_extend_RL78102.png)
+![Smart Config. : CSI table for SPI/UART/I2C — slide extend RL78102](img/slide_extend_RL78102.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -936,9 +936,9 @@ To fix conflict , select other SAU port , each SAU channel only support one func
   * 1 : 2^ND^ EDGE
 
 
-![](img/slide_extend_RL78103.png)
+![Smart Config. : CPOL/CPHA — slide extend RL78103](img/slide_extend_RL78103.png)
 
-![](img/slide_extend_RL78104.png)
+![Smart Config. : CPOL/CPHA — slide extend RL78104](img/slide_extend_RL78104.png)
 
 
 | CPOL | CPHA | mode | Type |
@@ -956,11 +956,11 @@ To fix conflict , select other SAU port , each SAU channel only support one func
 
 # Smart Config. : SPI (CSI)
 
-![](img/slide_extend_RL78105.png)
+![Smart Config. : SPI (CSI) — slide extend RL78105](img/slide_extend_RL78105.png)
 
-![](img/slide_extend_RL78106.png)
+![Smart Config. : SPI (CSI) — slide extend RL78106](img/slide_extend_RL78106.png)
 
-![](img/slide_extend_RL78107.png)
+![Smart Config. : SPI (CSI) — slide extend RL78107](img/slide_extend_RL78107.png)
 
 
 <span style="color:#FF0000">
@@ -971,7 +971,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_CSI01_Start();
 ```
 
-![](img/slide_extend_RL78108.png)
+![Smart Config. : SPI (CSI) — slide extend RL78108](img/slide_extend_RL78108.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -982,27 +982,27 @@ R_Config_CSI01_Start();
 
 # Smart Config. : UART
 
-![](img/slide_extend_RL78109.png)
+![Smart Config. : UART — slide extend RL78109](img/slide_extend_RL78109.png)
 
-![](img/slide_extend_RL78110.png)
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](img/slide_extend_RL78111.png)
+![Smart Config. : UART — slide extend RL78110](img/slide_extend_RL78110.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL78112.png)
+![Smart Config. : UART — slide extend RL78111](img/slide_extend_RL78111.png)
 
-![](img/slide_extend_RL78113.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
 
-![](img/slide_extend_RL78114.png)
+---
+
+![Smart Config. : UART — slide extend RL78112](img/slide_extend_RL78112.png)
+
+![Smart Config. : UART — slide extend RL78113](img/slide_extend_RL78113.png)
+
+![Smart Config. : UART — slide extend RL78114](img/slide_extend_RL78114.png)
 
 
 <span style="color:#FF0000">
@@ -1013,7 +1013,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_UART1_Start();
 ```
 
-![](img/slide_extend_RL78115.png)
+![Smart Config. : UART — slide extend RL78115](img/slide_extend_RL78115.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1030,7 +1030,7 @@ Add printf function
 3. redirect putchar function
 </span> 
 
-![](img/slide_extend_RL78116.png)
+![Smart Config. : UART , printf redirect — slide extend RL78116](img/slide_extend_RL78116.png)
 
 
 <span style="color:#000000">
@@ -1149,30 +1149,30 @@ The pulse cycle <u>(frequency)</u> is set in the master channel.<br>
 The pulse width <u>(duration)</u> is set in the slave channel.<br><br>
 </span>
 
-![](img/slide_extend_RL78118.png)
+![Smart Config. : PWM — slide extend RL78118](img/slide_extend_RL78118.png)
 
-![](img/slide_extend_RL78117.png)
+![Smart Config. : PWM — slide extend RL78117](img/slide_extend_RL78117.png)
 
-
-<u>RL78 Smart Configurator User's Guide: CS+</u>
-[back to top](#article_top)    
-
----
-
-![](img/slide_extend_RL78119.png)
-
-![](img/slide_extend_RL78120.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL78121.png)
+![Smart Config. : PWM — slide extend RL78119](img/slide_extend_RL78119.png)
 
-![](img/slide_extend_RL78122.png)
+![Smart Config. : PWM — slide extend RL78120](img/slide_extend_RL78120.png)
 
-![](img/slide_extend_RL78123.png)
+<u>RL78 Smart Configurator User's Guide: CS+</u>
+[back to top](#article_top)    
+
+---
+
+![Smart Config. : PWM — slide extend RL78121](img/slide_extend_RL78121.png)
+
+![Smart Config. : PWM — slide extend RL78122](img/slide_extend_RL78122.png)
+
+![Smart Config. : PWM — slide extend RL78123](img/slide_extend_RL78123.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1181,17 +1181,17 @@ The pulse width <u>(duration)</u> is set in the slave channel.<br><br>
 
 # Smart Config. : PWM formula
 
-![](img/slide_extend_RL78124.png)
+![Smart Config. : PWM formula — slide extend RL78124](img/slide_extend_RL78124.png)
 
-![](img/slide_extend_RL78125.png)
+![Smart Config. : PWM formula — slide extend RL78125](img/slide_extend_RL78125.png)
 
 MCU clock src : 40M , 
 clock div : 40M / 2^6 = 625K Hz , 
 target freq : 100Hz = 10000 us
 
-![](img/slide_extend_RL78126.png)
+![Smart Config. : PWM formula — slide extend RL78126](img/slide_extend_RL78126.png)
 
-![](img/slide_extend_RL78127.png)
+![Smart Config. : PWM formula — slide extend RL78127](img/slide_extend_RL78127.png)
 
 period : 1/100 (which is 10000us) = (val_m + 1 ) * (1/ 625K)
 
@@ -1208,9 +1208,9 @@ duty(%) = val_s / (val_m + 1) *100 , 75/100 = val_s/(val_m + 1)
 
 ---
 
-![](img/slide_extend_RL78128.png)
+![Smart Config. : PWM formula — slide extend RL78128](img/slide_extend_RL78128.png)
 
-![](img/slide_extend_RL78129.png)
+![Smart Config. : PWM formula — slide extend RL78129](img/slide_extend_RL78129.png)
 
 <span style="color:#FF0000">
 Need to manual add driver start API , ex : <br><br>
@@ -1220,7 +1220,7 @@ Need to manual add driver start API , ex : <br><br>
 R_Config_TAU0_2_Start();
 ```
 
-![](img/slide_extend_RL78130.png)
+![Smart Config. : PWM formula — slide extend RL78130](img/slide_extend_RL78130.png)
 
 
 # more PWM example , refer to 
@@ -1242,16 +1242,16 @@ R_Config_TAU0_2_Start();
 
 # Smart Config. : ADC
 
-![](img/slide_extend_RL78132.png)
+![Smart Config. : ADC — slide extend RL78132](img/slide_extend_RL78132.png)
 
-![](img/slide_extend_RL78131.png)
+![Smart Config. : ADC — slide extend RL78131](img/slide_extend_RL78131.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
 
 ---
 
-![](img/slide_extend_RL78133.png)
+![Smart Config. : ADC — slide extend RL78133](img/slide_extend_RL78133.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1260,7 +1260,7 @@ R_Config_TAU0_2_Start();
 
 # Smart Config. : ADC sampling
 
-![](img/slide_extend_RL78134.png)
+![Smart Config. : ADC sampling — slide extend RL78134](img/slide_extend_RL78134.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1269,13 +1269,13 @@ R_Config_TAU0_2_Start();
 
 # Smart Config. : ADC driver
 
-![](img/slide_extend_RL78137.png)
+![Smart Config. : ADC driver — slide extend RL78137](img/slide_extend_RL78137.png)
 
-![](img/slide_extend_RL78135.png)
+![Smart Config. : ADC driver — slide extend RL78135](img/slide_extend_RL78135.png)
 
-![](img/slide_extend_RL78136.png)
+![Smart Config. : ADC driver — slide extend RL78136](img/slide_extend_RL78136.png)
 
-![](img/slide_extend_RL78138.png)
+![Smart Config. : ADC driver — slide extend RL78138](img/slide_extend_RL78138.png)
 
 example : 
 
@@ -1308,7 +1308,7 @@ void GetADC(unsigned char ch)
 
 ```
 
-![](img/slide_extend_RL78139.png)
+![Smart Config. : ADC driver — slide extend RL78139](img/slide_extend_RL78139.png)
 
 
 # more ADC example , refer to 
@@ -1347,7 +1347,7 @@ void GetADC(e_ad_channel_t ch)
 
 # CS+ : Add root path in Path Edit
 
-![](img/slide_extend_RL78140.png)
+![CS+ : Add root path in Path Edit — slide extend RL78140](img/slide_extend_RL78140.png)
 
 
 <span style="color:#FF0000">
@@ -1359,7 +1359,7 @@ add root path under project to fix compile error issue<br><br>
 .
 ```
 
-![](img/slide_extend_RL78141.png)
+![CS+ : Add root path in Path Edit — slide extend RL78141](img/slide_extend_RL78141.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1386,7 +1386,7 @@ while(1)
 }
 ```
 
-![](img/slide_extend_RL78142.png)
+![CS+ : Add main loop — slide extend RL78142](img/slide_extend_RL78142.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1397,7 +1397,7 @@ while(1)
 If not add while loop under main code , program will <b>stop</b> at exit in csstart.asm<br><br>
 </span> 
 
-![](img/slide_extend_RL78143.png)
+![CS+ : Add main loop — slide extend RL78143](img/slide_extend_RL78143.png)
 
 <u>RL78 Smart Configurator User's Guide: CS+</u>
 [back to top](#article_top)    
@@ -1410,18 +1410,18 @@ If not add while loop under main code , program will <b>stop</b> at exit in csst
 Make sure <u><b>[DISCONNECT]</b></u> CS+ project before REMOVE DEBUGGER tool <br><br>
 </span>  
 
-![](img/slide_extend_RL78144.png)
+![CS+ : entry debug mode — slide extend RL78144](img/slide_extend_RL78144.png)
 
 download program after rebuild
-![](img/slide_extend_RL78147.png)
+![CS+ : entry debug mode — slide extend RL78147](img/slide_extend_RL78147.png)
 
 debug function
-![](img/slide_extend_RL78145.png)
-![](img/slide_extend_RL78146.png)
-![](img/slide_extend_RL78149.png)
-![](img/slide_extend_RL78150.png)
+![CS+ : entry debug mode — slide extend RL78145](img/slide_extend_RL78145.png)
+![CS+ : entry debug mode — slide extend RL78146](img/slide_extend_RL78146.png)
+![CS+ : entry debug mode — slide extend RL78149](img/slide_extend_RL78149.png)
+![CS+ : entry debug mode — slide extend RL78150](img/slide_extend_RL78150.png)
 
-![](img/slide_extend_RL78148.png)
+![CS+ : entry debug mode — slide extend RL78148](img/slide_extend_RL78148.png)
 
 
 <u>Integrated Development Environment User's Manual: RL78 Debug Tool</u>
@@ -1431,13 +1431,13 @@ debug function
 
 # Renesas Flash Programmer
 
-![](img/slide_extend_RL78151.png)
+![Renesas Flash Programmer — slide extend RL78151](img/slide_extend_RL78151.png)
 
-![](img/slide_extend_RL78153.png)
+![Renesas Flash Programmer — slide extend RL78153](img/slide_extend_RL78153.png)
 
-![](img/slide_extend_RL78152.png)
+![Renesas Flash Programmer — slide extend RL78152](img/slide_extend_RL78152.png)
 
-![](img/slide_extend_RL78154.png)
+![Renesas Flash Programmer — slide extend RL78154](img/slide_extend_RL78154.png)
 
 <u>Renesas Flash Programmer V*.** Flash memory programming softwareUser's Manual </u>
 [back to top](#article_top)    
@@ -1449,25 +1449,25 @@ debug function
 # Tips : Convert to Hex
 
 
-![](img/slide_extend_RL78155.png)
+![Tips : Convert to Hex — slide extend RL78155](img/slide_extend_RL78155.png)
 
-![](img/slide_extend_RL78156.png)
+![Tips : Convert to Hex — slide extend RL78156](img/slide_extend_RL78156.png)
    
 
 ---
 
 # Tips : Emulator power on MCU
 
-![](img/slide_extend_RL78157.png)
+![Tips : Emulator power on MCU — slide extend RL78157](img/slide_extend_RL78157.png)
 
-![](img/slide_extend_RL78158.png)
+![Tips : Emulator power on MCU — slide extend RL78158](img/slide_extend_RL78158.png)
    
 
 ---
 
 # Tips : map file display
 
-![](img/slide_extend_RL78159.png)
+![Tips : map file display — slide extend RL78159](img/slide_extend_RL78159.png)
 
 <span style="color:#FF0000">
 Function address<br>
@@ -1478,47 +1478,47 @@ RAM size display<br><br>
 </span>
 
 variable place address (SRAM)
-![](img/slide_extend_RL78160.png)
+![Tips : map file display — slide extend RL78160](img/slide_extend_RL78160.png)
 
 function place address (FLASH)
-![](img/slide_extend_RL78161.png)
+![Tips : map file display — slide extend RL78161](img/slide_extend_RL78161.png)
 
 section size display in map file
-![](img/slide_extend_RL78162.png)
+![Tips : map file display — slide extend RL78162](img/slide_extend_RL78162.png)
    
 
 ---
 
 # Tips : section message display
 
-![](img/slide_extend_RL78163.png)
+![Tips : section message display — slide extend RL78163](img/slide_extend_RL78163.png)
 
 
 Display section message
-![](img/slide_extend_RL78164.png)
+![Tips : section message display — slide extend RL78164](img/slide_extend_RL78164.png)
    
 
 ---
 
 # Tips : section size display in output window
 
-![](img/slide_extend_RL78165.png)
+![Tips : section size display in output window — slide extend RL78165](img/slide_extend_RL78165.png)
 
-![](img/slide_extend_RL78166.png)
+![Tips : section size display in output window — slide extend RL78166](img/slide_extend_RL78166.png)
    
 
 ---
 
 # Tips : Backup times (generate code)
 
-![](img/slide_extend_RL78167.png)
+![Tips : Backup times (generate code) — slide extend RL78167](img/slide_extend_RL78167.png)
    
 
 ---
 
 # Tips : section define modify
 
-![](img/slide_extend_RL78168_1.png)
+![Tips : section define modify — slide extend RL78168 1](img/slide_extend_RL78168_1.png)
    
 
 ---
@@ -1532,7 +1532,7 @@ ADD [<b>privateData.const</b>] in Section Settings<br>
 3. Key in [<b>privateData.const</b>] <br><br>
 </span>  
 
-![](img/slide_extend_RL78168.png)
+![Tips : section define (const) — slide extend RL78168](img/slide_extend_RL78168.png)
 
 | item | note |
 |:--:|:--:|
@@ -1541,10 +1541,10 @@ ADD [<b>privateData.const</b>] in Section Settings<br>
 | text  | program code  |
 |<span style="color:#FF0000"><b>const</b></span>   | <span style="color:#FF0000"><b>constant data</b></span>  |
 
-![](img/slide_extend_RL78169.png)
+![Tips : section define (const) — slide extend RL78169](img/slide_extend_RL78169.png)
 
 Code assignment example
-![](img/slide_extend_RL78170.png)
+![Tips : section define (const) — slide extend RL78170](img/slide_extend_RL78170.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1560,7 +1560,7 @@ ADD [<b>privateData.data</b>] in Section Settings<br>
 3. Key in [<b>privateData.data</b>] <br><br>
 </span>
 
-![](img/slide_extend_RL78171.png)
+![Tips : section define (data) — slide extend RL78171](img/slide_extend_RL78171.png)
 
 | item | note |
 |:--:|:--:|
@@ -1569,10 +1569,10 @@ ADD [<b>privateData.data</b>] in Section Settings<br>
 | text  | program code  |
 |const   | constant data  |
 
-![](img/slide_extend_RL78173.png)
+![Tips : section define (data) — slide extend RL78173](img/slide_extend_RL78173.png)
 
 Code assignment example
-![](img/slide_extend_RL78172.png)
+![Tips : section define (data) — slide extend RL78172](img/slide_extend_RL78172.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1589,7 +1589,7 @@ ADD [<b>privateData.bss</b>] in Section Settings<br>
 </span>
 
 
-![](img/slide_extend_RL78174.png)
+![Tips : section define (bss) — slide extend RL78174](img/slide_extend_RL78174.png)
 
 
 | item | note |
@@ -1599,10 +1599,10 @@ ADD [<b>privateData.bss</b>] in Section Settings<br>
 | text  | program code  |
 |const   | constant data  |
 
-![](img/slide_extend_RL78176.png)
+![Tips : section define (bss) — slide extend RL78176](img/slide_extend_RL78176.png)
 
 Code assignment example
-![](img/slide_extend_RL78175.png)
+![Tips : section define (bss) — slide extend RL78175](img/slide_extend_RL78175.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)   
@@ -1616,13 +1616,13 @@ New add custom define section as below <br>
 Also able to define the address base on application<br><br>
 </span>
 
-![](img/slide_extend_RL78177.png)
+![Tips : section define (not assigned address) — slide extend RL78177](img/slide_extend_RL78177.png)
 
 Code assignment example
-![](img/slide_extend_RL78178.png)
+![Tips : section define (not assigned address) — slide extend RL78178](img/slide_extend_RL78178.png)
 
 check the address in map file
-![](img/slide_extend_RL78179.png)
+![Tips : section define (not assigned address) — slide extend RL78179](img/slide_extend_RL78179.png)
 
 
 <u>CC-RL Compiler User's Manual</u>
@@ -1638,13 +1638,13 @@ New add custom define section as the capture<br>
 Also able to define the address base on application<br><br>
 </span>
 
-![](img/slide_extend_RL78180.png)
+![Tips : section define (assigned address) — slide extend RL78180](img/slide_extend_RL78180.png)
 
 Code assignment example
-![](img/slide_extend_RL78181.png)
+![Tips : section define (assigned address) — slide extend RL78181](img/slide_extend_RL78181.png)
 
 check the address in map file
-![](img/slide_extend_RL78182.png)
+![Tips : section define (assigned address) — slide extend RL78182](img/slide_extend_RL78182.png)
 
 
 <u>CC-RL Compiler User's Manual</u>
@@ -1654,7 +1654,7 @@ check the address in map file
 
 # Tips : section allocation , size
 
-![](img/slide_extend_RL78183.png)
+![Tips : section allocation , size — slide extend RL78183](img/slide_extend_RL78183.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1668,17 +1668,17 @@ check the address in map file
 Use [<b> Build Mode Setting </b>] , to split different macro in different project setting if necessary<br><br>
 </span>
 
-![](img/slide_extend_RL78184.png)
+![Tips : project split — slide extend RL78184](img/slide_extend_RL78184.png)
 
 Project split example , modify the projec name
-![](img/slide_extend_RL78185.png)
+![Tips : project split — slide extend RL78185](img/slide_extend_RL78185.png)
 
-![](img/slide_extend_RL78186.png)
+![Tips : project split — slide extend RL78186](img/slide_extend_RL78186.png)
 
-![](img/slide_extend_RL78187.png)
+![Tips : project split — slide extend RL78187](img/slide_extend_RL78187.png)
 
 Add the macro define for extra project 
-![](img/slide_extend_RL78188.png)
+![Tips : project split — slide extend RL78188](img/slide_extend_RL78188.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1694,13 +1694,13 @@ Add the macro define for extra project
 enable [<b>Access during the execution</b>] at Debugger Property > Debug Tool Settings tab<br>
 </span>
 
-![](img/RL78_watch_window_update1.png)
+![Tips : add global variable into watch window with real time update — RL78 watch window update1](img/RL78_watch_window_update1.png)
 
 <span style="color:#FF0000">
 Add (non-static) global variable/structure into watch window , by [<b>Register to Watch1</b>] and verify the variable in window<br>
 </span>
 
-![](img/RL78_watch_window_update2.png)
+![Tips : add global variable into watch window with real time update — RL78 watch window update2](img/RL78_watch_window_update2.png)
 
 
 
@@ -1716,12 +1716,12 @@ Add (non-static) global variable/structure into watch window , by [<b>Register t
 Writing to the on-chip debug reserved area is prohibited.(address: 0x00000002)(E1203124)<br><br>
 </span>
 
-![](img/slide_extend_RL78189.png)
+![Tips : E1203124 — slide extend RL78189](img/slide_extend_RL78189.png)
 
 how to fix
-![](img/slide_extend_RL78190.png)
+![Tips : E1203124 — slide extend RL78190](img/slide_extend_RL78190.png)
 
-![](img/slide_extend_RL78191.png)
+![Tips : E1203124 — slide extend RL78191](img/slide_extend_RL78191.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1732,8 +1732,8 @@ how to fix
 
 
 when entry debug mode , unable to set break point
-![](img/slide_extend_RL78204.png)
-![](img/slide_extend_RL78203.png)
+![Tips : unable to set break point under debug mode — slide extend RL78204](img/slide_extend_RL78204.png)
+![Tips : unable to set break point under debug mode — slide extend RL78203](img/slide_extend_RL78203.png)
 
 Link Options > Output debug Information 
 
@@ -1741,7 +1741,7 @@ Link Options > Output debug Information
 <b>turn on output debug mode information</b> <br><br>
 </span>
 
-![](img/slide_extend_RL78200.png)
+![Tips : unable to set break point under debug mode — slide extend RL78200](img/slide_extend_RL78200.png)
 
 Common Options > Output File Type and Path 
 
@@ -1749,11 +1749,11 @@ Common Options > Output File Type and Path
 <b>enable Execute Module (Load Module File)</b> <br><br>
 </span>
 
-![](img/slide_extend_RL78202.png)
+![Tips : unable to set break point under debug mode — slide extend RL78202](img/slide_extend_RL78202.png)
 
 will be able to set break point after entry debug mode
 
-![](img/slide_extend_RL78201.png)
+![Tips : unable to set break point under debug mode — slide extend RL78201](img/slide_extend_RL78201.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
@@ -1768,28 +1768,28 @@ ex :
 old project NAME : RL78_G16_ADC_PWM_Input_Pulse_UART_1M
 new project NAME : RL78_G16_ADC_PWM_INTP_UART_1M
 
-![](img/project_copy_1.png)
+![Tips : How to copy project without config/compiler error — project copy 1](img/project_copy_1.png)
 
 - step 2 : under the new project folder , ==rename below 4 project CONFIG files (__mtud , mtpj , rcpe , scfg__)== , to new project name (ex : RL78_G16_ADC_PWM_INTP_UART_1M.xxx )
 
-![](img/project_copy_2.png)
+![Tips : How to copy project without config/compiler error — project copy 2](img/project_copy_2.png)
 
 - step 3 : OPEN the ==4 project CONFIG files (__mtud , mtpj , rcpe , scfg__)== by NOTEPAD++ , at the same time
 
-![](img/project_copy_3.png)
+![Tips : How to copy project without config/compiler error — project copy 3](img/project_copy_3.png)
 
 - step 4 : ==use ctrl+C== , to __SEARCH__ the OLD project name (ex : RL78_G16_ADC_PWM_Input_Pulse_UART_1M) under all opened files
 
-![](img/project_copy_4.png)
+![Tips : How to copy project without config/compiler error — project copy 4](img/project_copy_4.png)
 
 - step 5 : wil see below result , the OLD project name will appear under below 3 project CONFIG files (__mtud , mtpj , rcpe__)
 
-![](img/project_copy_5.png)
+![Tips : How to copy project without config/compiler error — project copy 5](img/project_copy_5.png)
 
 
 - step 6 : ==use ctrl+H== , __FIND AND REPLACE__ , find the OLD project name (ex : RL78_G16_ADC_PWM_Input_Pulse_UART_1M) and repalce with new project name (ex : RL78_G16_ADC_PWM_INTP_UART_1M) under all opened files
 
-![](img/project_copy_6.png)
+![Tips : How to copy project without config/compiler error — project copy 6](img/project_copy_6.png)
 
 <u>CC-RL Compiler User's Manual</u>
 [back to top](#article_top)
